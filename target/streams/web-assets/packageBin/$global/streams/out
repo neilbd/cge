@@ -1,0 +1,15 @@
+[0m[[0minfo[0m] [0mPackaging /Users/neilbd/Documents/CGE/cge/target/scala-2.11/play-java_2.11-1.0-SNAPSHOT-web-assets.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	public/images[0m
+[0m[[0mdebug[0m] [0m	  /Users/neilbd/Documents/CGE/cge/public/images[0m
+[0m[[0mdebug[0m] [0m	public/stylesheets[0m
+[0m[[0mdebug[0m] [0m	  /Users/neilbd/Documents/CGE/cge/public/stylesheets[0m
+[0m[[0mdebug[0m] [0m	public/images/favicon.png[0m
+[0m[[0mdebug[0m] [0m	  /Users/neilbd/Documents/CGE/cge/public/images/favicon.png[0m
+[0m[[0mdebug[0m] [0m	public/javascripts/hello.js[0m
+[0m[[0mdebug[0m] [0m	  /Users/neilbd/Documents/CGE/cge/public/javascripts/hello.js[0m
+[0m[[0mdebug[0m] [0m	public/javascripts[0m
+[0m[[0mdebug[0m] [0m	  /Users/neilbd/Documents/CGE/cge/public/javascripts[0m
+[0m[[0mdebug[0m] [0m	public/stylesheets/main.css[0m
+[0m[[0mdebug[0m] [0m	  /Users/neilbd/Documents/CGE/cge/public/stylesheets/main.css[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
