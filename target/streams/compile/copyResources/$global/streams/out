@@ -1,0 +1,4 @@
+[debug] Copy resource mappings: 
+[debug] 	(C:\Users\Jared\Documents\CGE\cge\conf\application.conf,C:\Users\Jared\Documents\CGE\cge\target\scala-2.11\classes\application.conf)
+[debug] 	(C:\Users\Jared\Documents\CGE\cge\conf\logback.xml,C:\Users\Jared\Documents\CGE\cge\target\scala-2.11\classes\logback.xml)
+[debug] 	(C:\Users\Jared\Documents\CGE\cge\conf\routes,C:\Users\Jared\Documents\CGE\cge\target\scala-2.11\classes\routes)
