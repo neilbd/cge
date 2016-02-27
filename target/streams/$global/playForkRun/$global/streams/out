@@ -1,5 +1,5 @@
 [0m[[0minfo[0m] [0mSetting up Play fork run ... (use Ctrl+D to cancel)[0m
-[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/Jared/Documents/CGE/cge/}root...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/neilbd/Documents/CGE/cge/}root...[0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.6 ...[0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-api_2.11;1.1.1 ...[0m
 [0m[[0minfo[0m] [0mResolving org.apache.commons#commons-lang3;3.4 ...[0m
@@ -161,15 +161,15 @@
 [0m[[0minfo[0m] [0mResolving net.contentobjects.jnotify#jnotify;0.94-play-1 ...[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
 [0m[[0minfo[0m] [0m[0m
-[0m[[0minfo[0m] [0m--- (Running the application, auto-reloading is enabled) ---[0m
+[0m[[0minfo[0m] [0m[35m--- (Running the application, auto-reloading is enabled) ---[0m[0m
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0mp.c.s.NettyServer - Listening for HTTP on /0:0:0:0:0:0:0:0:9000[0m
 [0m[[0minfo[0m] [0m[0m
-[0m[[0minfo[0m] [0m(Server started, use Ctrl+D to stop and go back to the console...)[0m
+[0m[[0minfo[0m] [0m[32m(Server started, use Ctrl+D to stop and go back to the console...)[0m[0m
 [0m[[0minfo[0m] [0m[0m
-[0m[[0minfo[0m] [0mCompiling 6 Scala sources and 2 Java sources to C:\Users\Jared\Documents\CGE\cge\target\scala-2.11\classes...[0m
+[0m[[0minfo[0m] [0mCompiling 6 Scala sources and 2 Java sources to /Users/neilbd/Documents/CGE/cge/target/scala-2.11/classes...[0m
 [0m[[0minfo[0m] [0m- play.api.Play - Application started (Dev)[0m
-[0m[[0minfo[0m] [0mStopping Play fork run ...[0m
 [0m[[0minfo[0m] [0mJVM exiting, shutting down Play fork run ...[0m
+[0m[[0minfo[0m] [0mStopping Play fork run ...[0m
 [0m[[0minfo[0m] [0mPlay fork run already stopped ...[0m
-[0m[[0minfo[0m] [0mForked Play process exited with status: 0[0m
+[0m[[0minfo[0m] [0mForked Play process exited with status: 130[0m
