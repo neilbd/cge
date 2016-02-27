@@ -1,0 +1,13 @@
+New log file opened at Sat Feb 27 17:20:04 EST 2016 by 1752@Darkmatter
+Taking next connection to: 52986
+New client attempting to connect on port: 52987-52986
+  Address = /152.23.143.117:52986
+This client on port 52987 has uuid fe9ee522-6ce3-483b-bf40-79fb74fb0e06 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-fe9ee522-6ce3-483b-bf40-79fb74fb0e06
+Taking next connection to: 52986
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 1752@Darkmatter logs at Sat Feb 27 17:23:17 EST 2016, goodbye.
