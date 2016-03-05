@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>play-java</groupId>
-    <artifactId>play-java_2.11</artifactId>
+    <groupId>campuseventsapp</groupId>
+    <artifactId>campuseventsapp_2.11</artifactId>
     <packaging>jar</packaging>
-    <description>play-java</description>
+    <description>campuseventsapp</description>
     <version>1.0-SNAPSHOT</version>
-    <name>play-java</name>
+    <name>campuseventsapp</name>
     <organization>
-        <name>play-java</name>
+        <name>campuseventsapp</name>
     </organization>
     <dependencies>
         <dependency>

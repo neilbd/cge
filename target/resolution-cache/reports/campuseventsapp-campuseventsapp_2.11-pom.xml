@@ -2,12 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
 <ivy-report version="1.0">
 	<info
-		organisation="play-java"
-		module="play-java_2.11"
+		organisation="campuseventsapp"
+		module="campuseventsapp_2.11"
 		revision="1.0-SNAPSHOT"
-		conf="sources"
+		conf="pom"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, fork-run"
-		date="20160227174512"/>
+		date="20160305124452"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

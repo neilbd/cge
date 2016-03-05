@@ -2,18 +2,18 @@
 <?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
 <ivy-report version="1.0">
 	<info
-		organisation="play-java"
-		module="play-java_2.11"
+		organisation="campuseventsapp"
+		module="campuseventsapp_2.11"
 		revision="1.0-SNAPSHOT"
-		conf="compile-internal"
+		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, fork-run"
-		date="20160227174512"/>
+		date="20160305124452"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="play-java-ws_2.11">
 			<revision name="2.4.6" status="release" pubdate="20151214022211" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="68">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="4173" time="0" location="/Users/neilbd/.ivy2/cache/com.typesafe.play/play-java-ws_2.11/ivy-2.4.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-java-ws_2.11/2.4.6/play-java-ws_2.11-2.4.6.pom"/>
-				<caller organisation="play-java" name="play-java_2.11" conf="compile-internal, compile, provided, optional" rev="2.4.6" rev-constraint-default="2.4.6" rev-constraint-dynamic="2.4.6" callerrev="1.0-SNAPSHOT"/>
+				<caller organisation="campuseventsapp" name="campuseventsapp_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.6" rev-constraint-default="2.4.6" rev-constraint-dynamic="2.4.6" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="play-java-ws_2.11" type="jar" ext="jar" status="no" details="" size="27288" time="0" location="/Users/neilbd/.ivy2/cache/com.typesafe.play/play-java-ws_2.11/jars/play-java-ws_2.11-2.4.6.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-java-ws_2.11/2.4.6/play-java-ws_2.11-2.4.6.jar"/>
@@ -103,7 +103,7 @@
 			<revision name="2.4.6" status="release" pubdate="20151214022144" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="66">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3308" time="0" location="/Users/neilbd/.ivy2/cache/com.typesafe.play/play-cache_2.11/ivy-2.4.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.4.6/play-cache_2.11-2.4.6.pom"/>
-				<caller organisation="play-java" name="play-java_2.11" conf="compile-internal, compile, provided, optional" rev="2.4.6" rev-constraint-default="2.4.6" rev-constraint-dynamic="2.4.6" callerrev="1.0-SNAPSHOT"/>
+				<caller organisation="campuseventsapp" name="campuseventsapp_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.6" rev-constraint-default="2.4.6" rev-constraint-dynamic="2.4.6" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="play-cache_2.11" type="jar" ext="jar" status="no" details="" size="74205" time="0" location="/Users/neilbd/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.6.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.4.6/play-cache_2.11-2.4.6.jar"/>
@@ -127,7 +127,7 @@
 			<revision name="2.4.6" status="release" pubdate="20151214022220" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="59">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3094" time="0" location="/Users/neilbd/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/ivy-2.4.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-java-jdbc_2.11/2.4.6/play-java-jdbc_2.11-2.4.6.pom"/>
-				<caller organisation="play-java" name="play-java_2.11" conf="compile-internal, compile, provided, optional" rev="2.4.6" rev-constraint-default="2.4.6" rev-constraint-dynamic="2.4.6" callerrev="1.0-SNAPSHOT"/>
+				<caller organisation="campuseventsapp" name="campuseventsapp_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.6" rev-constraint-default="2.4.6" rev-constraint-dynamic="2.4.6" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="play-java-jdbc_2.11" type="jar" ext="jar" status="no" details="" size="10661" time="0" location="/Users/neilbd/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.4.6.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-java-jdbc_2.11/2.4.6/play-java-jdbc_2.11-2.4.6.jar"/>
@@ -208,7 +208,7 @@
 			<revision name="2.4.6" status="release" pubdate="20151214022230" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="56">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3358" time="0" location="/Users/neilbd/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/ivy-2.4.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.4.6/play-netty-server_2.11-2.4.6.pom"/>
-				<caller organisation="play-java" name="play-java_2.11" conf="compile-internal, compile, provided, optional" rev="2.4.6" rev-constraint-default="2.4.6" rev-constraint-dynamic="2.4.6" callerrev="1.0-SNAPSHOT"/>
+				<caller organisation="campuseventsapp" name="campuseventsapp_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.6" rev-constraint-default="2.4.6" rev-constraint-dynamic="2.4.6" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="play-netty-server_2.11" type="jar" ext="jar" status="no" details="" size="213430" time="0" location="/Users/neilbd/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.6.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.4.6/play-netty-server_2.11-2.4.6.jar"/>
@@ -264,7 +264,7 @@
 			<revision name="2.4.6" status="release" pubdate="20151214022147" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="41">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="6520" time="0" location="/Users/neilbd/.ivy2/cache/com.typesafe.play/play-java_2.11/ivy-2.4.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-java_2.11/2.4.6/play-java_2.11-2.4.6.pom"/>
-				<caller organisation="play-java" name="play-java_2.11" conf="compile-internal, compile, provided, optional" rev="2.4.6" rev-constraint-default="2.4.6" rev-constraint-dynamic="2.4.6" callerrev="1.0-SNAPSHOT"/>
+				<caller organisation="campuseventsapp" name="campuseventsapp_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.6" rev-constraint-default="2.4.6" rev-constraint-dynamic="2.4.6" callerrev="1.0-SNAPSHOT"/>
 				<caller organisation="com.typesafe.play" name="play-java-jdbc_2.11" conf="default, compile, runtime, master" rev="2.4.6" rev-constraint-default="2.4.6" rev-constraint-dynamic="2.4.6" callerrev="2.4.6"/>
 				<caller organisation="com.typesafe.play" name="play-java-ws_2.11" conf="default, compile, runtime, master" rev="2.4.6" rev-constraint-default="2.4.6" rev-constraint-dynamic="2.4.6" callerrev="2.4.6"/>
 				<artifacts>
@@ -444,8 +444,8 @@
 			<revision name="2.4.6" status="release" pubdate="20151214022154" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="5">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3307" time="0" location="/Users/neilbd/.ivy2/cache/com.typesafe.play/play-server_2.11/ivy-2.4.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.4.6/play-server_2.11-2.4.6.pom"/>
+				<caller organisation="campuseventsapp" name="campuseventsapp_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.6" rev-constraint-default="2.4.6" rev-constraint-dynamic="2.4.6" callerrev="1.0-SNAPSHOT"/>
 				<caller organisation="com.typesafe.play" name="play-netty-server_2.11" conf="default, compile, runtime, master" rev="2.4.6" rev-constraint-default="2.4.6" rev-constraint-dynamic="2.4.6" callerrev="2.4.6"/>
-				<caller organisation="play-java" name="play-java_2.11" conf="compile-internal, compile, provided, optional" rev="2.4.6" rev-constraint-default="2.4.6" rev-constraint-dynamic="2.4.6" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="play-server_2.11" type="jar" ext="jar" status="no" details="" size="261357" time="0" location="/Users/neilbd/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.6.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.4.6/play-server_2.11-2.4.6.jar"/>
@@ -504,7 +504,7 @@
 		</module>
 		<module organisation="com.google.inject.extensions" name="guice-assistedinject">
 			<revision name="4.0" status="release" pubdate="20150428163500" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
-				<metadata-artifact status="successful" details="" size="549" time="72" location="/Users/neilbd/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/ivy-4.0.xml" searched="true" original-local-location="/Users/neilbd/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/ivy-4.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom"/>
+				<metadata-artifact status="successful" details="" size="549" time="105" location="/Users/neilbd/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/ivy-4.0.xml" searched="true" original-local-location="/Users/neilbd/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/ivy-4.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom"/>
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="2.4.6"/>
 				<artifacts>
 					<artifact name="guice-assistedinject" type="jar" ext="jar" status="no" details="" size="43425" time="0" location="/Users/neilbd/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar">
@@ -1005,7 +1005,7 @@
 			<revision name="1.1.0" status="release" pubdate="20150527035632" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-enhancer" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="2545" time="0" location="/Users/neilbd/.ivy2/cache/com.typesafe.play/play-enhancer/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-enhancer/1.1.0/play-enhancer-1.1.0.pom"/>
-				<caller organisation="play-java" name="play-java_2.11" conf="compile-internal, compile, provided, optional" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="1.0-SNAPSHOT"/>
+				<caller organisation="campuseventsapp" name="campuseventsapp_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="play-enhancer" type="jar" ext="jar" status="no" details="" size="7812" time="0" location="/Users/neilbd/.ivy2/cache/com.typesafe.play/play-enhancer/jars/play-enhancer-1.1.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-enhancer/1.1.0/play-enhancer-1.1.0.jar"/>
@@ -1017,8 +1017,8 @@
 			<revision name="1.1.1" status="release" pubdate="20150514010045" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/twirl" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3330" time="0" location="/Users/neilbd/.ivy2/cache/com.typesafe.play/twirl-api_2.11/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.11/1.1.1/twirl-api_2.11-1.1.1.pom"/>
+				<caller organisation="campuseventsapp" name="campuseventsapp_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.0-SNAPSHOT"/>
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="2.4.6"/>
-				<caller organisation="play-java" name="play-java_2.11" conf="compile-internal, compile, provided, optional" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="twirl-api_2.11" type="jar" ext="jar" status="no" details="" size="60413" time="0" location="/Users/neilbd/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.11/1.1.1/twirl-api_2.11-1.1.1.jar"/>
@@ -1054,6 +1054,7 @@
 			<revision name="2.11.6" status="release" pubdate="20150225200105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.6/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
 				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/neilbd/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.pom"/>
+				<caller organisation="campuseventsapp" name="campuseventsapp_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.0-SNAPSHOT"/>
 				<caller organisation="com.typesafe.play" name="play-netty-server_2.11" conf="default, compile, runtime, master" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="2.4.6"/>
 				<caller organisation="org.scala-lang.modules" name="scala-java8-compat_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="0.3.0"/>
 				<caller organisation="com.typesafe.play" name="play-iteratees_2.11" conf="compile, runtime" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="2.4.6"/>
@@ -1070,7 +1071,6 @@
 				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="2.3.13"/>
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="2.4.6"/>
 				<caller organisation="com.typesafe.akka" name="akka-actor_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="2.3.13"/>
-				<caller organisation="play-java" name="play-java_2.11" conf="compile-internal, compile, provided, optional" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.0-SNAPSHOT"/>
 				<caller organisation="com.typesafe.play" name="play-java-jdbc_2.11" conf="default, compile, runtime, master" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="2.4.6"/>
 				<caller organisation="com.typesafe.play" name="play-cache_2.11" conf="default, compile, runtime, master" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="2.4.6"/>
 				<caller organisation="com.typesafe.play" name="play-java_2.11" conf="default, compile, runtime, master" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="2.4.6"/>

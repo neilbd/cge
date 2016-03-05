@@ -1,4 +1,4 @@
-name := """play-java"""
+name := """campuseventsapp"""
 
 version := "1.0-SNAPSHOT"
 

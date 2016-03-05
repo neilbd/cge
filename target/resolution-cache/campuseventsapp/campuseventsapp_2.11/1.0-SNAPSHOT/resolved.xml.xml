@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="play-java"
-		module="play-java_2.11"
+	<info organisation="campuseventsapp"
+		module="campuseventsapp_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20160227174512"
+		publication="20160305124452"
 	>
 		<description>
-		play-java
+		campuseventsapp
 		</description>
 	</info>
 	<configurations>
@@ -27,10 +27,10 @@
 		<conf name="fork-run" visibility="private" description=""/>
 	</configurations>
 	<publications>
-		<artifact name="play-java_2.11" type="pom" ext="pom" conf="pom"/>
-		<artifact name="play-java_2.11" type="jar" ext="jar" conf="compile"/>
-		<artifact name="play-java_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		<artifact name="play-java_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		<artifact name="campuseventsapp_2.11" type="pom" ext="pom" conf="pom"/>
+		<artifact name="campuseventsapp_2.11" type="jar" ext="jar" conf="compile"/>
+		<artifact name="campuseventsapp_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		<artifact name="campuseventsapp_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.6" conf="scala-tool->default,optional(default)"/>
