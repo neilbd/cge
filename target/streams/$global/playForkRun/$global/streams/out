@@ -189,18 +189,18 @@
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0m(Server started, use Ctrl+D to stop and go back to the console...)[0m
 [0m[[0minfo[0m] [0m[0m
-[0m[[0minfo[0m] [0mCompiling 6 Scala sources and 4 Java sources to C:\Users\Jared\Documents\CGE\cge\target\scala-2.11\classes...[0m
-[0m[[31merror[0m] [0mC:\Users\Jared\Documents\CGE\cge\app\controllers\Application.java:16: package BodyParse does not exist[0m
-[0m[[31merror[0m] [0mBodyParse.Of[0m
-[0m[[31merror[0m] [0mC:\Users\Jared\Documents\CGE\cge\app\controllers\Application.java:19: cannot find symbol[0m
-[0m[[31merror[0m] [0m  symbol:   method texValue()[0m
-[0m[[31merror[0m] [0m  location: class com.fasterxml.jackson.databind.JsonNode[0m
-[0m[[31merror[0m] [0mjson.findPath("name").texValue[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to C:\Users\Jared\Documents\CGE\cge\target\scala-2.11\classes...[0m
+[0m[[31merror[0m] [0mC:\Users\Jared\Documents\CGE\cge\app\controllers\Application.java:20: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class ObjectNode[0m
+[0m[[31merror[0m] [0m  location: class controllers.Application[0m
+[0m[[31merror[0m] [0mObjectNode[0m
 [0m[[31merror[0m] [0mapplication - [0m
 [0m[[0minfo[0m] [0m[0m
-[0m[[0minfo[0m] [0m! @6pipj6336 - Internal server error, for (GET) [/] ->[0m
+[0m[[0minfo[0m] [0m! @6pipmbfg6 - Internal server error, for (GET) [/] ->[0m
 [0m[[0minfo[0m] [0m [0m
-[0m[[0minfo[0m] [0mplay.forkrun.protocol.Serializers$playExceptionPickler$$anon$1: Compilation error[package BodyParse does not exist][0m
+[0m[[0minfo[0m] [0mplay.forkrun.protocol.Serializers$playExceptionPickler$$anon$1: Compilation error[cannot find symbol[0m
+[0m[[0minfo[0m] [0m  symbol:   class ObjectNode[0m
+[0m[[0minfo[0m] [0m  location: class controllers.Application][0m
 [0m[[0minfo[0m] [0m	at play.forkrun.protocol.Serializers$playExceptionPickler$.unpickle(Serializers.scala:159) ~[na:na][0m
 [0m[[0minfo[0m] [0m	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileFailureUnpickler$macro$56$2$.unpickle(Serializers.scala:175) ~[na:na][0m
 [0m[[0minfo[0m] [0m	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileResultUnpickler$macro$66$2$.unpickle(Serializers.scala:181) ~[na:na][0m
@@ -211,10 +211,7 @@
 [0m[[0minfo[0m] [0m	at scala.util.Try$.apply(Try.scala:191) ~[scala-library-2.11.6.jar:na][0m
 [0m[[0minfo[0m] [0m	at sbt.serialization.JsonValue.parse(SerializedValue.scala:104) ~[na:na][0m
 [0m[[0minfo[0m] [0m	at sbt.protocol.BuildValue.value(Values.scala:11) ~[na:na][0m
-[0m[[0minfo[0m] [0mCompiling 6 Scala sources and 4 Java sources to C:\Users\Jared\Documents\CGE\cge\target\scala-2.11\classes...[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to C:\Users\Jared\Documents\CGE\cge\target\scala-2.11\classes...[0m
 [0m[[0minfo[0m] [0m- application - Creating Pool for datasource 'default'[0m
 [0m[[0minfo[0m] [0m- play.api.db.DefaultDBApi - Database [default] connected at jdbc:h2:mem:play[0m
 [0m[[0minfo[0m] [0m- play.api.Play - Application started (Dev)[0m
-[0m[[0minfo[0m] [0mStopping Play fork run ...[0m
-[0m[[0minfo[0m] [0m- application - Shutting down connection pool.[0m
-[0m[[0minfo[0m] [0mForked Play process did not exit on its own, terminating it[0m

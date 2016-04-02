@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Jared/Documents/CGE/cge/conf/routes
-// @DATE:Sat Apr 02 14:06:17 EDT 2016
+// @DATE:Sat Apr 02 15:12:48 EDT 2016
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -48,7 +48,11 @@ package controllers.javascript {
       "controllers.Application.sayHello",
       """
         function() {
-          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "sayHello"})
+        
+          if (true) {
+            return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "sayHello"})
+          }
+        
         }
       """
     )

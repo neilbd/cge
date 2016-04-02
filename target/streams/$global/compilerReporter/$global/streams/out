@@ -1,6 +1,4 @@
-[error] C:\Users\Jared\Documents\CGE\cge\app\controllers\Application.java:16: package BodyParse does not exist
-[error] BodyParse.Of
-[error] C:\Users\Jared\Documents\CGE\cge\app\controllers\Application.java:19: cannot find symbol
-[error]   symbol:   method texValue()
-[error]   location: class com.fasterxml.jackson.databind.JsonNode
-[error] json.findPath("name").texValue
+[error] C:\Users\Jared\Documents\CGE\cge\app\controllers\Application.java:20: cannot find symbol
+[error]   symbol:   class ObjectNode
+[error]   location: class controllers.Application
+[error] ObjectNode

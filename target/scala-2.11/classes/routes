@@ -10,4 +10,5 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 
 GET     /test                       controllers.Application.index
 
+GET     /sayHello                   controllers.Application.sayHello()
 POST    /sayHello                   controllers.Application.sayHello()

@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Jared/Documents/CGE/cge/conf/routes
-// @DATE:Sat Apr 02 14:06:17 EDT 2016
+// @DATE:Sat Apr 02 15:12:48 EDT 2016
 
 package router
 
@@ -46,6 +46,7 @@ class Routes(
     ("""GET""", this.prefix, """controllers.Application.index()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """test""", """controllers.Application.index"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """sayHello""", """controllers.Application.sayHello()"""),
     ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """sayHello""", """controllers.Application.sayHello()"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
@@ -106,10 +107,27 @@ class Routes(
   )
 
   // @LINE:13
-  private[this] lazy val controllers_Application_sayHello3_route = Route("POST",
+  private[this] lazy val controllers_Application_sayHello3_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("sayHello")))
   )
   private[this] lazy val controllers_Application_sayHello3_invoker = createInvoker(
+    Application_1.sayHello(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "sayHello",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """sayHello"""
+    )
+  )
+
+  // @LINE:14
+  private[this] lazy val controllers_Application_sayHello4_route = Route("POST",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("sayHello")))
+  )
+  private[this] lazy val controllers_Application_sayHello4_invoker = createInvoker(
     Application_1.sayHello(),
     HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -147,6 +165,12 @@ class Routes(
     case controllers_Application_sayHello3_route(params) =>
       call { 
         controllers_Application_sayHello3_invoker.call(Application_1.sayHello())
+      }
+  
+    // @LINE:14
+    case controllers_Application_sayHello4_route(params) =>
+      call { 
+        controllers_Application_sayHello4_invoker.call(Application_1.sayHello())
       }
   }
 }
