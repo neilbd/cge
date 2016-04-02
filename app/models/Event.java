@@ -13,13 +13,13 @@ public class Event extends Model{
     private String room;
     private String date;
     private String time;
-    private Organization org;
+    //private Organization org;
     private String desc;
     private int attendence;
     private ArrayList<Tag> tags;
     private String color;
 
-    public Event(int id, String name, Organization org, Locations location, String room, String desc, ArrayList<Tag> tags,
+    public Event(int id, String name, /*Organization org,*/ Locations location, String room, String desc, ArrayList<Tag> tags,
                  String time, String date, String color){
         this.name = name;
         this.org = org;
@@ -42,9 +42,9 @@ public class Event extends Model{
 
     public int getId() { return this.id; }
 
-    public Organization getOrg(){
+    /*public Organization getOrg(){
         return this.org;
-    }
+    }*/
 
     public Location getLocation() { return this.location; }
 

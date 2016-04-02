@@ -1,7 +1,7 @@
-New log file opened at Sat Feb 27 17:34:24 EST 2016 by 34102@dhcp-v880-5-00372.1Xwireless.unc.edu
-Taking next connection to: 53635
-New client attempting to connect on port: 53636-53635
-  Address = /152.23.57.118:53635
-This client on port 53636 has uuid 07ff4c8c-7dfe-4f0b-ad60-ec6597ac3980 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: play-fork-run-07ff4c8c-7dfe-4f0b-ad60-ec6597ac3980
-Taking next connection to: 53635
+New log file opened at Sat Apr 02 14:22:17 EDT 2016 by 9992@Darkmatter
+Taking next connection to: 56635
+New client attempting to connect on port: 56636-56635
+  Address = /169.254.44.155:56635
+This client on port 56636 has uuid 05a473d8-889d-441f-af75-6e4e21488b04 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-05a473d8-889d-441f-af75-6e4e21488b04
+Taking next connection to: 56635

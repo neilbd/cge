@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/Users/neilbd/Documents/CGE/cge/conf/routes
-// @DATE:Sat Mar 05 12:44:53 EST 2016
+// @SOURCE:C:/Users/Jared/Documents/CGE/cge/conf/routes
+// @DATE:Sat Apr 02 14:06:17 EDT 2016
 
 package router
 
@@ -45,6 +45,8 @@ class Routes(
   def documentation = List(
     ("""GET""", this.prefix, """controllers.Application.index()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """test""", """controllers.Application.index"""),
+    ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """sayHello""", """controllers.Application.sayHello()"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
     case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
@@ -86,6 +88,40 @@ class Routes(
     )
   )
 
+  // @LINE:11
+  private[this] lazy val controllers_Application_index2_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("test")))
+  )
+  private[this] lazy val controllers_Application_index2_invoker = createInvoker(
+    Application_1.index,
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "index",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """test"""
+    )
+  )
+
+  // @LINE:13
+  private[this] lazy val controllers_Application_sayHello3_route = Route("POST",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("sayHello")))
+  )
+  private[this] lazy val controllers_Application_sayHello3_invoker = createInvoker(
+    Application_1.sayHello(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "sayHello",
+      Nil,
+      "POST",
+      """""",
+      this.prefix + """sayHello"""
+    )
+  )
+
 
   def routes: PartialFunction[RequestHeader, Handler] = {
   
@@ -99,6 +135,18 @@ class Routes(
     case controllers_Assets_versioned1_route(params) =>
       call(Param[String]("path", Right("/public")), params.fromPath[Asset]("file", None)) { (path, file) =>
         controllers_Assets_versioned1_invoker.call(Assets_0.versioned(path, file))
+      }
+  
+    // @LINE:11
+    case controllers_Application_index2_route(params) =>
+      call { 
+        controllers_Application_index2_invoker.call(Application_1.index)
+      }
+  
+    // @LINE:13
+    case controllers_Application_sayHello3_route(params) =>
+      call { 
+        controllers_Application_sayHello3_invoker.call(Application_1.sayHello())
       }
   }
 }
