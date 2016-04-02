@@ -1,59 +1,6 @@
-[error] C:\Users\Jared\Documents\CGE\cge\app\models\Event.java:4: package javax.persistence does not exist
-[error] C:\Users\Jared\Documents\CGE\cge\app\models\Event.java:5: package com.avaje.ebean does not exist
-[error] com.avaje.ebean.Model
-[error] C:\Users\Jared\Documents\CGE\cge\app\models\Event.java:7: cannot find symbol
-[error]   symbol: class Model
-[error] Model
-[error] C:\Users\Jared\Documents\CGE\cge\app\models\Locations.java:4: package javax.persistence does not exist
-[error] C:\Users\Jared\Documents\CGE\cge\app\models\Locations.java:5: package com.avaje.ebean does not exist
-[error] com.avaje.ebean.Model
-[error] C:\Users\Jared\Documents\CGE\cge\app\models\Locations.java:7: cannot find symbol
-[error]   symbol: class Model
-[error] Model
-[error] C:\Users\Jared\Documents\CGE\cge\app\models\Event.java:19: cannot find symbol
-[error]   symbol:   class ArrayList
-[error]   location: class models.Event
-[error] ArrayList
-[error] C:\Users\Jared\Documents\CGE\cge\app\models\Event.java:19: cannot find symbol
-[error]   symbol:   class Tag
-[error]   location: class models.Event
-[error] Tag
-[error] C:\Users\Jared\Documents\CGE\cge\app\models\Event.java:22: cannot find symbol
-[error]   symbol:   class ArrayList
-[error]   location: class models.Event
-[error] ArrayList
-[error] C:\Users\Jared\Documents\CGE\cge\app\models\Event.java:22: cannot find symbol
-[error]   symbol:   class Tag
-[error]   location: class models.Event
-[error] Tag
-[error] C:\Users\Jared\Documents\CGE\cge\app\models\Event.java:49: cannot find symbol
-[error]   symbol:   class Location
-[error]   location: class models.Event
-[error] Location
-[error] C:\Users\Jared\Documents\CGE\cge\app\models\Event.java:69: cannot find symbol
-[error]   symbol:   class ArrayList
-[error]   location: class models.Event
-[error] ArrayList
-[error] C:\Users\Jared\Documents\CGE\cge\app\models\Event.java:69: cannot find symbol
-[error]   symbol:   class Tag
-[error]   location: class models.Event
-[error] Tag
-[error] C:\Users\Jared\Documents\CGE\cge\app\models\Event.java:71: cannot find symbol
-[error]   symbol:   class ArrayList
-[error]   location: class models.Event
-[error] ArrayList
-[error] C:\Users\Jared\Documents\CGE\cge\app\models\Event.java:71: cannot find symbol
-[error]   symbol:   class Tag
-[error]   location: class models.Event
-[error] Tag
-[error] C:\Users\Jared\Documents\CGE\cge\app\controllers\Application.java:14: cannot find symbol
-[error]   symbol:   class JsonNode
-[error]   location: class controllers.Application
-[error] JsonNode
-[error] C:\Users\Jared\Documents\CGE\cge\app\models\Event.java:25: cannot find symbol
-[error]   symbol: variable org
-[error] this.org
-[error] C:\Users\Jared\Documents\CGE\cge\app\models\Event.java:25: cannot find symbol
-[error]   symbol:   variable org
-[error]   location: class models.Event
-[error] org
+[error] C:\Users\Jared\Documents\CGE\cge\app\controllers\Application.java:16: package BodyParse does not exist
+[error] BodyParse.Of
+[error] C:\Users\Jared\Documents\CGE\cge\app\controllers\Application.java:19: cannot find symbol
+[error]   symbol:   method texValue()
+[error]   location: class com.fasterxml.jackson.databind.JsonNode
+[error] json.findPath("name").texValue

@@ -1,7 +1,10 @@
-New log file opened at Sat Apr 02 14:22:17 EDT 2016 by 9992@Darkmatter
-Taking next connection to: 56635
-New client attempting to connect on port: 56636-56635
-  Address = /169.254.44.155:56635
-This client on port 56636 has uuid 05a473d8-889d-441f-af75-6e4e21488b04 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: play-fork-run-05a473d8-889d-441f-af75-6e4e21488b04
-Taking next connection to: 56635
+New log file opened at Sat Apr 02 15:08:20 EDT 2016 by 8888@Darkmatter
+Taking next connection to: 58169
+New client attempting to connect on port: 58170-58169
+  Address = /169.254.44.155:58169
+This client on port 58170 has uuid 0a68593b-97a2-45d4-b616-325038a47aac configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-0a68593b-97a2-45d4-b616-325038a47aac
+Taking next connection to: 58169
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 58169

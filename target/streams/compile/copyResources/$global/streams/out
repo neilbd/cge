@@ -1,5 +1,5 @@
-[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/Users/neilbd/Documents/CGE/cge/conf/application.conf,/Users/neilbd/Documents/CGE/cge/target/scala-2.11/classes/application.conf)[0m
-[0m[[0mdebug[0m] [0m	(/Users/neilbd/Documents/CGE/cge/conf/logback.xml,/Users/neilbd/Documents/CGE/cge/target/scala-2.11/classes/logback.xml)[0m
-[0m[[0mdebug[0m] [0m	(/Users/neilbd/Documents/CGE/cge/conf/openshift.conf,/Users/neilbd/Documents/CGE/cge/target/scala-2.11/classes/openshift.conf)[0m
-[0m[[0mdebug[0m] [0m	(/Users/neilbd/Documents/CGE/cge/conf/routes,/Users/neilbd/Documents/CGE/cge/target/scala-2.11/classes/routes)[0m
+[debug] Copy resource mappings: 
+[debug] 	(C:\Users\Jared\Documents\CGE\cge\conf\application.conf,C:\Users\Jared\Documents\CGE\cge\target\scala-2.11\classes\application.conf)
+[debug] 	(C:\Users\Jared\Documents\CGE\cge\conf\logback.xml,C:\Users\Jared\Documents\CGE\cge\target\scala-2.11\classes\logback.xml)
+[debug] 	(C:\Users\Jared\Documents\CGE\cge\conf\openshift.conf,C:\Users\Jared\Documents\CGE\cge\target\scala-2.11\classes\openshift.conf)
+[debug] 	(C:\Users\Jared\Documents\CGE\cge\conf\routes,C:\Users\Jared\Documents\CGE\cge\target\scala-2.11\classes\routes)

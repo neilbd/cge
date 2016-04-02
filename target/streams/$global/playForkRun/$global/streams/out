@@ -1,39 +1,41 @@
 [0m[[0minfo[0m] [0mSetting up Play fork run ... (use Ctrl+D to cancel)[0m
-[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/Jared/Documents/CGE/cge/}root...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/Jared/Documents/CGE/cge/}myProject...[0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.6 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-enhancer;1.1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.javassist#javassist;3.18.2-GA ...[0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-api_2.11;1.1.1 ...[0m
 [0m[[0minfo[0m] [0mResolving org.apache.commons#commons-lang3;3.4 ...[0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.1 ...[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-enhancer;1.1.0 ...[0m
-[0m[[0minfo[0m] [0mResolving org.javassist#javassist;3.18.2-GA ...[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-server_2.11;2.4.6 ...[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.play#play_2.11;2.4.6 ...[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.play#build-link;2.4.6 ...[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-exceptions;2.4.6 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-ebean_2.11;1.0.0 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-jdbc-evolutions_2.11;2.4.0 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-jdbc-api_2.11;2.4.0 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play_2.11;2.4.0 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#build-link;2.4.0 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-exceptions;2.4.0 ...[0m
 [0m[[0minfo[0m] [0mResolving org.javassist#javassist;3.19.0-GA ...[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-iteratees_2.11;2.4.6 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-iteratees_2.11;2.4.0 ...[0m
 [0m[[0minfo[0m] [0mResolving org.scala-stm#scala-stm_2.11;0.7 ...[0m
 [0m[[0minfo[0m] [0mResolving com.typesafe#config;1.3.0 ...[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-json_2.11;2.4.6 ...[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-functional_2.11;2.4.6 ...[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-datacommons_2.11;2.4.6 ...[0m
-[0m[[0minfo[0m] [0mResolving joda-time#joda-time;2.8.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-json_2.11;2.4.0 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-functional_2.11;2.4.0 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-datacommons_2.11;2.4.0 ...[0m
+[0m[[0minfo[0m] [0mResolving joda-time#joda-time;2.7 ...[0m
 [0m[[0minfo[0m] [0mResolving org.joda#joda-convert;1.7 ...[0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.6 ...[0m
-[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-core;2.5.4 ...[0m
-[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-annotations;2.5.4 ...[0m
-[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-databind;2.5.4 ...[0m
-[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4 ...[0m
-[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4 ...[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-netty-utils;2.4.6 ...[0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-core;2.5.3 ...[0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-annotations;2.5.3 ...[0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-databind;2.5.3 ...[0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.3 ...[0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.3 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-netty-utils;2.4.0 ...[0m
 [0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.12 ...[0m
 [0m[[0minfo[0m] [0mResolving org.slf4j#jul-to-slf4j;1.7.12 ...[0m
 [0m[[0minfo[0m] [0mResolving org.slf4j#jcl-over-slf4j;1.7.12 ...[0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 ...[0m
 [0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-core;1.1.3 ...[0m
 [0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-classic;1.1.3 ...[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.11;2.3.13 ...[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-slf4j_2.11;2.3.13 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.11;2.3.11 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-slf4j_2.11;2.3.11 ...[0m
 [0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.10 ...[0m
 [0m[[0minfo[0m] [0mResolving xerces#xercesImpl;2.11.0 ...[0m
 [0m[[0minfo[0m] [0mResolving xml-apis#xml-apis;1.4.01 ...[0m
@@ -45,6 +47,26 @@
 [0m[[0minfo[0m] [0mResolving com.google.inject.extensions#guice-assistedinject;4.0 ...[0m
 [0m[[0minfo[0m] [0mResolving com.google.inject.extensions#guice-assistedinject;4.0 ...[0m
 [0m[[0minfo[0m] [0mResolving com.google.inject.extensions#extensions-parent;4.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.avaje.ebeanorm#avaje-ebeanorm;4.6.2 ...[0m
+[0m[[0minfo[0m] [0mResolving javax.persistence#persistence-api;1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.avaje.ebeanorm#avaje-ebeanorm-agent;4.5.3 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-server_2.11;2.4.6 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play_2.11;2.4.6 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#build-link;2.4.6 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-exceptions;2.4.6 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-iteratees_2.11;2.4.6 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-json_2.11;2.4.6 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-functional_2.11;2.4.6 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-datacommons_2.11;2.4.6 ...[0m
+[0m[[0minfo[0m] [0mResolving joda-time#joda-time;2.8.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-core;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-annotations;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-databind;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-netty-utils;2.4.6 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.11;2.3.13 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-slf4j_2.11;2.3.13 ...[0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-java_2.11;2.4.6 ...[0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-java8-compat_2.11;0.3.0 ...[0m
 [0m[[0minfo[0m] [0mResolving org.yaml#snakeyaml;1.15 ...[0m
@@ -168,70 +190,17 @@
 [0m[[0minfo[0m] [0m(Server started, use Ctrl+D to stop and go back to the console...)[0m
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0mCompiling 6 Scala sources and 4 Java sources to C:\Users\Jared\Documents\CGE\cge\target\scala-2.11\classes...[0m
-[0m[[31merror[0m] [0mC:\Users\Jared\Documents\CGE\cge\app\models\Event.java:4: package javax.persistence does not exist[0m
-[0m[[31merror[0m] [0mC:\Users\Jared\Documents\CGE\cge\app\models\Event.java:5: package com.avaje.ebean does not exist[0m
-[0m[[31merror[0m] [0mcom.avaje.ebean.Model[0m
-[0m[[31merror[0m] [0mC:\Users\Jared\Documents\CGE\cge\app\models\Event.java:7: cannot find symbol[0m
-[0m[[31merror[0m] [0m  symbol: class Model[0m
-[0m[[31merror[0m] [0mModel[0m
-[0m[[31merror[0m] [0mC:\Users\Jared\Documents\CGE\cge\app\models\Locations.java:4: package javax.persistence does not exist[0m
-[0m[[31merror[0m] [0mC:\Users\Jared\Documents\CGE\cge\app\models\Locations.java:5: package com.avaje.ebean does not exist[0m
-[0m[[31merror[0m] [0mcom.avaje.ebean.Model[0m
-[0m[[31merror[0m] [0mC:\Users\Jared\Documents\CGE\cge\app\models\Locations.java:7: cannot find symbol[0m
-[0m[[31merror[0m] [0m  symbol: class Model[0m
-[0m[[31merror[0m] [0mC:\Users\Jared\Documents\CGE\cge\app\models\Event.java:19: cannot find symbol[0m
-[0m[[31merror[0m] [0m  symbol:   class ArrayList[0m
-[0m[[31merror[0m] [0m  location: class models.Event[0m
-[0m[[31merror[0m] [0mArrayList[0m
-[0m[[31merror[0m] [0mModel[0m
-[0m[[31merror[0m] [0mC:\Users\Jared\Documents\CGE\cge\app\models\Event.java:19: cannot find symbol[0m
-[0m[[31merror[0m] [0m  symbol:   class Tag[0m
-[0m[[31merror[0m] [0m  location: class models.Event[0m
-[0m[[31merror[0m] [0mTag[0m
-[0m[[31merror[0m] [0mC:\Users\Jared\Documents\CGE\cge\app\models\Event.java:22: cannot find symbol[0m
-[0m[[31merror[0m] [0m  symbol:   class ArrayList[0m
-[0m[[31merror[0m] [0m  location: class models.Event[0m
-[0m[[31merror[0m] [0mArrayList[0m
-[0m[[31merror[0m] [0mC:\Users\Jared\Documents\CGE\cge\app\models\Event.java:22: cannot find symbol[0m
-[0m[[31merror[0m] [0m  symbol:   class Tag[0m
-[0m[[31merror[0m] [0m  location: class models.Event[0m
-[0m[[31merror[0m] [0mTag[0m
-[0m[[31merror[0m] [0mC:\Users\Jared\Documents\CGE\cge\app\models\Event.java:49: cannot find symbol[0m
-[0m[[31merror[0m] [0m  symbol:   class Location[0m
-[0m[[31merror[0m] [0m  location: class models.Event[0m
-[0m[[31merror[0m] [0mLocation[0m
-[0m[[31merror[0m] [0mC:\Users\Jared\Documents\CGE\cge\app\models\Event.java:69: cannot find symbol[0m
-[0m[[31merror[0m] [0m  symbol:   class ArrayList[0m
-[0m[[31merror[0m] [0m  location: class models.Event[0m
-[0m[[31merror[0m] [0mArrayList[0m
-[0m[[31merror[0m] [0mC:\Users\Jared\Documents\CGE\cge\app\models\Event.java:69: cannot find symbol[0m
-[0m[[31merror[0m] [0m  symbol:   class Tag[0m
-[0m[[31merror[0m] [0m  location: class models.Event[0m
-[0m[[31merror[0m] [0mTag[0m
-[0m[[31merror[0m] [0mC:\Users\Jared\Documents\CGE\cge\app\models\Event.java:71: cannot find symbol[0m
-[0m[[31merror[0m] [0m  symbol:   class ArrayList[0m
-[0m[[31merror[0m] [0m  location: class models.Event[0m
-[0m[[31merror[0m] [0mArrayList[0m
-[0m[[31merror[0m] [0mC:\Users\Jared\Documents\CGE\cge\app\models\Event.java:71: cannot find symbol[0m
-[0m[[31merror[0m] [0m  symbol:   class Tag[0m
-[0m[[31merror[0m] [0m  location: class models.Event[0m
-[0m[[31merror[0m] [0mTag[0m
-[0m[[31merror[0m] [0mC:\Users\Jared\Documents\CGE\cge\app\controllers\Application.java:14: cannot find symbol[0m
-[0m[[31merror[0m] [0m  symbol:   class JsonNode[0m
-[0m[[31merror[0m] [0m  location: class controllers.Application[0m
-[0m[[31merror[0m] [0mJsonNode[0m
-[0m[[31merror[0m] [0mC:\Users\Jared\Documents\CGE\cge\app\models\Event.java:25: cannot find symbol[0m
-[0m[[31merror[0m] [0m  symbol: variable org[0m
-[0m[[31merror[0m] [0mthis.org[0m
-[0m[[31merror[0m] [0mC:\Users\Jared\Documents\CGE\cge\app\models\Event.java:25: cannot find symbol[0m
-[0m[[31merror[0m] [0m  symbol:   variable org[0m
-[0m[[31merror[0m] [0m  location: class models.Event[0m
-[0m[[31merror[0m] [0morg[0m
+[0m[[31merror[0m] [0mC:\Users\Jared\Documents\CGE\cge\app\controllers\Application.java:16: package BodyParse does not exist[0m
+[0m[[31merror[0m] [0mBodyParse.Of[0m
+[0m[[31merror[0m] [0mC:\Users\Jared\Documents\CGE\cge\app\controllers\Application.java:19: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   method texValue()[0m
+[0m[[31merror[0m] [0m  location: class com.fasterxml.jackson.databind.JsonNode[0m
+[0m[[31merror[0m] [0mjson.findPath("name").texValue[0m
 [0m[[31merror[0m] [0mapplication - [0m
 [0m[[0minfo[0m] [0m[0m
-[0m[[0minfo[0m] [0m! @6pipdgjn2 - Internal server error, for (GET) [/] ->[0m
+[0m[[0minfo[0m] [0m! @6pipj6336 - Internal server error, for (GET) [/] ->[0m
 [0m[[0minfo[0m] [0m [0m
-[0m[[0minfo[0m] [0mplay.forkrun.protocol.Serializers$playExceptionPickler$$anon$1: Compilation error[package javax.persistence does not exist][0m
+[0m[[0minfo[0m] [0mplay.forkrun.protocol.Serializers$playExceptionPickler$$anon$1: Compilation error[package BodyParse does not exist][0m
 [0m[[0minfo[0m] [0m	at play.forkrun.protocol.Serializers$playExceptionPickler$.unpickle(Serializers.scala:159) ~[na:na][0m
 [0m[[0minfo[0m] [0m	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileFailureUnpickler$macro$56$2$.unpickle(Serializers.scala:175) ~[na:na][0m
 [0m[[0minfo[0m] [0m	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileResultUnpickler$macro$66$2$.unpickle(Serializers.scala:181) ~[na:na][0m
@@ -242,3 +211,10 @@
 [0m[[0minfo[0m] [0m	at scala.util.Try$.apply(Try.scala:191) ~[scala-library-2.11.6.jar:na][0m
 [0m[[0minfo[0m] [0m	at sbt.serialization.JsonValue.parse(SerializedValue.scala:104) ~[na:na][0m
 [0m[[0minfo[0m] [0m	at sbt.protocol.BuildValue.value(Values.scala:11) ~[na:na][0m
+[0m[[0minfo[0m] [0mCompiling 6 Scala sources and 4 Java sources to C:\Users\Jared\Documents\CGE\cge\target\scala-2.11\classes...[0m
+[0m[[0minfo[0m] [0m- application - Creating Pool for datasource 'default'[0m
+[0m[[0minfo[0m] [0m- play.api.db.DefaultDBApi - Database [default] connected at jdbc:h2:mem:play[0m
+[0m[[0minfo[0m] [0m- play.api.Play - Application started (Dev)[0m
+[0m[[0minfo[0m] [0mStopping Play fork run ...[0m
+[0m[[0minfo[0m] [0m- application - Shutting down connection pool.[0m
+[0m[[0minfo[0m] [0mForked Play process did not exit on its own, terminating it[0m

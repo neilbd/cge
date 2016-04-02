@@ -2,6 +2,7 @@ package models;
 
 import play.data.validation.Constraints.*;
 import javax.persistence.*;
+import java.util.*;
 import com.avaje.ebean.Model;
 
 public class Event extends Model{
@@ -16,17 +17,17 @@ public class Event extends Model{
     //private Organization org;
     private String desc;
     private int attendence;
-    private ArrayList<Tag> tags;
+    //private ArrayList<Tag> tags;
     private String color;
 
-    public Event(int id, String name, /*Organization org,*/ Locations location, String room, String desc, ArrayList<Tag> tags,
+    public Event(int id, String name, /*Organization org,*/ Locations location, String room, String desc, /*ArrayList<Tag> tags,*/
                  String time, String date, String color){
         this.name = name;
-        this.org = org;
+        //this.org = org;
         this.location = location;
         this.room = room;
         this.desc = desc;
-        this.tags = tags;
+        //this.tags = tags;
         this.time = time;
         this.date = date;
         this.color = color;
@@ -46,7 +47,7 @@ public class Event extends Model{
         return this.org;
     }*/
 
-    public Location getLocation() { return this.location; }
+    public Locations getLocation() { return this.location; }
 
     public void setLocation(Locations location) { this.location = location; }
 
@@ -66,9 +67,9 @@ public class Event extends Model{
 
     public void setColor(String color) { this.color = color; }
 
-    public void setTags(ArrayList<Tag> tags) { this.tags = tags; }
+    //public void setTags(ArrayList<Tag> tags) { this.tags = tags; }
 
-    public ArrayList<Tag> getTags() { return this.tags; }
+    //public ArrayList<Tag> getTags() { return this.tags; }
 
 
 
