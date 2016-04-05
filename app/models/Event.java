@@ -1,10 +1,12 @@
 package models;
 
 import play.data.validation.Constraints.*;
-import javax.persistence.*;
+import javax.ppersistence.*;
 import java.util.*;
 import com.avaje.ebean.Model;
 
+
+@Entity
 public class Event extends Model{
 
     @Required
@@ -19,6 +21,7 @@ public class Event extends Model{
     private int attendence;
     //private ArrayList<Tag> tags;
     private String color;
+
 
     public Event(int id, String name, /*Organization org,*/ Locations location, String room, String desc, /*ArrayList<Tag> tags,*/
                  String time, String date, String color){
@@ -42,6 +45,7 @@ public class Event extends Model{
     }
 
     public int getId() { return this.id; }
+
 
     /*public Organization getOrg(){
         return this.org;

@@ -2,6 +2,7 @@ package controllers;
 
 import play.*;
 import play.mvc.*;
+import play.db.jpa.*;
 import play.libs.Json;
 import com.fasterxml.jackson.databind.*;
 import com.fasterxml.jackson.databind.node.*;
@@ -17,6 +18,7 @@ public class Application extends Controller {
 
 
     @BodyParser.Of(BodyParser.Json.class)
+    @Transactional
     public Result sayHello() {
         ObjectNode result = Json.newObject();
         JsonNode json = request().body().asJson();
@@ -30,6 +32,18 @@ public class Application extends Controller {
             result.put("type", "event");
             return ok(result);
         }
+
+    }
+    @BodyParser.Of(BodyParser.Json.class)
+    public Result saveEvent() {
+        ObjectNode result = Json.newObject();
+        JsonNode json = request().body().asJson();
+
+        String name = json.findPath("name").textValue();
+
+        Event event = new Event(null, name, null, null, null, null, null, null);
+        JPA.em().persist(event);
+
     }
     /*
     public Result search() {

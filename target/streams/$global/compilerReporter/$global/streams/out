@@ -1,4 +1,4 @@
-[error] C:\Users\Jared\Documents\CGE\cge\app\controllers\Application.java:20: cannot find symbol
-[error]   symbol:   class ObjectNode
-[error]   location: class controllers.Application
-[error] ObjectNode
+[error] C:\Users\Jared\Documents\CGE\cge\app\controllers\Application.java:5: object jpa is not a member of package play.db
+[error] import play.db.jpa.*;
+[error]        ^
+[error] one error found
