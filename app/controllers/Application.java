@@ -6,6 +6,7 @@ import play.db.jpa.*;
 import play.libs.Json;
 import com.fasterxml.jackson.databind.*;
 import com.fasterxml.jackson.databind.node.*;
+import models.*;
 
 
 import views.html.*;
@@ -35,15 +36,16 @@ public class Application extends Controller {
 
     }
     @BodyParser.Of(BodyParser.Json.class)
+    @Transactional
     public Result saveEvent() {
         ObjectNode result = Json.newObject();
         JsonNode json = request().body().asJson();
 
         String name = json.findPath("name").textValue();
 
-        Event event = new Event(null, name, null, null, null, null, null, null);
+        Event event = new Event(1, name, null, null, null, null, null, null);
         JPA.em().persist(event);
-
+        return ok("Data saved");
     }
     /*
     public Result search() {

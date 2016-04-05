@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT [compile]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45ae1f52
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c999ffa
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6
 [debug] 	found org.scala-lang#scala-library;2.11.6 in sbt-chain
 [debug] 	[2.11.6] org.scala-lang#scala-library;2.11.6
@@ -422,18 +422,18 @@
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.google.inject.extensions#guice-assistedinject;4.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] 		tried C:\Users\Jared\.ivy2\local\com.google.inject.extensions\guice-assistedinject\4.0\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.google.inject.extensions#guice-assistedinject;4.0
-[debug] 		tried https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
-[debug] 	public: found md file for com.google.inject.extensions#guice-assistedinject;4.0
-[debug] 		=> https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom (4.0)
-[debug] downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
-[debug] 	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.pom(pom.original) (154ms)
+[debug] 		tried https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
+[debug] 	jcenter: found md file for com.google.inject.extensions#guice-assistedinject;4.0
+[debug] 		=> https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom (4.0)
+[debug] downloading https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
+[debug] 	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.pom(pom.original) (311ms)
 [info] Resolving com.google.inject.extensions#extensions-parent;4.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.google.inject.extensions#extensions-parent;4.0 {}
 [debug] sbt-chain: module revision found in cache: com.google.inject.extensions#extensions-parent;4.0
-[debug] 	found com.google.inject.extensions#guice-assistedinject;4.0 in public
+[debug] 	found com.google.inject.extensions#guice-assistedinject;4.0 in jcenter
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.0->com.google.inject.extensions#guice-assistedinject;4.0 [compile->compile(*)]
 [debug] == resolving dependencies com.google.inject.extensions#guice-assistedinject;4.0->com.google.inject#guice;4.0 [compile->master(compile)]
 [debug] == resolving dependencies com.google.inject.extensions#guice-assistedinject;4.0->com.google.inject#guice;4.0 [compile->compile(*)]
@@ -1613,6 +1613,179 @@
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.4.6 [compile->runtime]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.4.6 [compile->compile]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.4.6 [compile->master]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.6 [compile->default(compile)]
+[info] Resolving com.typesafe.play#play-java-jpa_2.11;2.4.6 ...
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-java-jpa_2.11;2.4.6 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.typesafe.play#play-java-jpa_2.11;2.4.6
+[debug] 	found com.typesafe.play#play-java-jpa_2.11;2.4.6 in sbt-chain
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.6 [compile->runtime]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.6 [compile->compile]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->com.typesafe.play#play-java-jdbc_2.11;2.4.6 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->com.typesafe.play#play-java-jdbc_2.11;2.4.6 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->master(compile)]
+[info] Resolving org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final ...
+[debug] sbt-chain: Checking cache for: dependency: org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final
+[debug] 	found org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final in sbt-chain
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->runtime(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->compile]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->com.typesafe.play#play-java-jdbc_2.11;2.4.6 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->com.typesafe.play#play-java-jdbc_2.11;2.4.6 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->compile]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.6 [compile->master]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;5.1.0.Final [compile->default(compile)]
+[info] Resolving org.hibernate#hibernate-entitymanager;5.1.0.Final ...
+[debug] sbt-chain: Checking cache for: dependency: org.hibernate#hibernate-entitymanager;5.1.0.Final {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.hibernate#hibernate-entitymanager;5.1.0.Final
+[debug] 	found org.hibernate#hibernate-entitymanager;5.1.0.Final in sbt-chain
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;5.1.0.Final [compile->runtime]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;5.1.0.Final [compile->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->master(compile)]
+[info] Resolving org.jboss.logging#jboss-logging;3.3.0.Final ...
+[debug] sbt-chain: Checking cache for: dependency: org.jboss.logging#jboss-logging;3.3.0.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.jboss.logging#jboss-logging;3.3.0.Final
+[debug] 	found org.jboss.logging#jboss-logging;3.3.0.Final in sbt-chain
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [compile->master(compile)]
+[info] Resolving org.hibernate#hibernate-core;5.1.0.Final ...
+[debug] sbt-chain: Checking cache for: dependency: org.hibernate#hibernate-core;5.1.0.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.hibernate#hibernate-core;5.1.0.Final
+[debug] 	found org.hibernate#hibernate-core;5.1.0.Final in sbt-chain
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->master(compile)]
+[info] Resolving org.javassist#javassist;3.20.0-GA ...
+[debug] sbt-chain: Checking cache for: dependency: org.javassist#javassist;3.20.0-GA {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.javassist#javassist;3.20.0-GA
+[debug] 	found org.javassist#javassist;3.20.0-GA in sbt-chain
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->antlr#antlr;2.7.7 [compile->master(compile)]
+[info] Resolving antlr#antlr;2.7.7 ...
+[debug] sbt-chain: Checking cache for: dependency: antlr#antlr;2.7.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: antlr#antlr;2.7.7
+[debug] 	found antlr#antlr;2.7.7 in sbt-chain
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->antlr#antlr;2.7.7 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->master(compile)]
+[info] Resolving org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[info] Resolving org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried C:\Users\Jared\.ivy2\local\org.apache.geronimo.specs\geronimo-jta_1.1_spec\1.1.1\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1
+[debug] 		tried https://jcenter.bintray.com/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.pom
+[debug] 	jcenter: found md file for org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1
+[debug] 		=> https://jcenter.bintray.com/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.pom (1.1.1)
+[debug] downloading https://jcenter.bintray.com/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.pom
+[debug] 	[SUCCESSFUL ] org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1!geronimo-jta_1.1_spec.pom(pom.original) (399ms)
+[info] Resolving org.apache.geronimo.specs#specs;1.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.geronimo.specs#specs;1.4 {}
+[debug] sbt-chain: module revision found in cache: org.apache.geronimo.specs#specs;1.4
+[debug] 	found org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 in jcenter
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss#jandex;2.0.0.Final [compile->master(compile)]
+[info] Resolving org.jboss#jandex;2.0.0.Final ...
+[debug] sbt-chain: Checking cache for: dependency: org.jboss#jandex;2.0.0.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.jboss#jandex;2.0.0.Final
+[debug] 	found org.jboss#jandex;2.0.0.Final in sbt-chain
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss#jandex;2.0.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [compile->master(compile)]
+[info] Resolving com.fasterxml#classmate;1.3.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.fasterxml#classmate;1.3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.fasterxml#classmate;1.3.0
+[debug] 	found com.fasterxml#classmate;1.3.0 in sbt-chain
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [compile->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [compile->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->master(compile)]
+[info] Resolving dom4j#dom4j;1.6.1 ...
+[debug] sbt-chain: Checking cache for: dependency: dom4j#dom4j;1.6.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: dom4j#dom4j;1.6.1
+[debug] 	found dom4j#dom4j;1.6.1 in sbt-chain
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->compile(*)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.0.b2 [compile->master(compile)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.4.01 [compile->master(compile)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.0.b2 [compile->compile(*)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.4.01 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->compile]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.0.b2 [runtime->runtime(*)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.4.01 [runtime->runtime(*)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.4.01 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->master(compile)]
+[info] Resolving org.hibernate.common#hibernate-commons-annotations;5.0.1.Final ...
+[debug] sbt-chain: Checking cache for: dependency: org.hibernate.common#hibernate-commons-annotations;5.0.1.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.hibernate.common#hibernate-commons-annotations;5.0.1.Final
+[debug] 	found org.hibernate.common#hibernate-commons-annotations;5.0.1.Final in sbt-chain
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate.common#hibernate-commons-annotations;5.0.1.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate.common#hibernate-commons-annotations;5.0.1.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->compile]
+[debug] == resolving dependencies org.hibernate.common#hibernate-commons-annotations;5.0.1.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate.common#hibernate-commons-annotations;5.0.1.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [compile->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [compile->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->antlr#antlr;2.7.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->antlr#antlr;2.7.7 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss#jandex;2.0.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss#jandex;2.0.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->dom4j#dom4j;1.6.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->dom4j#dom4j;1.6.1 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.javassist#javassist;3.20.0-GA [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.javassist#javassist;3.20.0-GA [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [runtime->compile]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;5.1.0.Final [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT [runtime]
 [debug] == resolving dependencies for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT [compile]
@@ -2442,6 +2615,101 @@
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.4.6 [compile->runtime]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.4.6 [compile->compile]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.4.6 [compile->master]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.6 [compile->default(compile)]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.6 [compile->runtime]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.6 [compile->compile]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->com.typesafe.play#play-java-jdbc_2.11;2.4.6 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->com.typesafe.play#play-java-jdbc_2.11;2.4.6 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->com.typesafe.play#play-java-jdbc_2.11;2.4.6 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->com.typesafe.play#play-java-jdbc_2.11;2.4.6 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->compile]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.6 [compile->master]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;5.1.0.Final [compile->default(compile)]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;5.1.0.Final [compile->runtime]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;5.1.0.Final [compile->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->antlr#antlr;2.7.7 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->antlr#antlr;2.7.7 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss#jandex;2.0.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss#jandex;2.0.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->compile(*)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.0.b2 [compile->master(compile)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.4.01 [compile->master(compile)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.0.b2 [compile->compile(*)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.4.01 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate.common#hibernate-commons-annotations;5.0.1.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate.common#hibernate-commons-annotations;5.0.1.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->antlr#antlr;2.7.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->antlr#antlr;2.7.7 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss#jandex;2.0.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss#jandex;2.0.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [runtime->compile]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.0.b2 [runtime->runtime(*)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.4.01 [runtime->runtime(*)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.4.01 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate.common#hibernate-commons-annotations;5.0.1.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate.common#hibernate-commons-annotations;5.0.1.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->dom4j#dom4j;1.6.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->dom4j#dom4j;1.6.1 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.javassist#javassist;3.20.0-GA [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.javassist#javassist;3.20.0-GA [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [runtime->compile]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;5.1.0.Final [compile->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT [test]
 [debug] == resolving dependencies for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT [runtime]
@@ -3272,6 +3540,101 @@
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.4.6 [compile->runtime]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.4.6 [compile->compile]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.4.6 [compile->master]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.6 [compile->default(compile)]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.6 [compile->runtime]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.6 [compile->compile]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->com.typesafe.play#play-java-jdbc_2.11;2.4.6 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->com.typesafe.play#play-java-jdbc_2.11;2.4.6 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->com.typesafe.play#play-java-jdbc_2.11;2.4.6 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->com.typesafe.play#play-java-jdbc_2.11;2.4.6 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->compile]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.6 [compile->master]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;5.1.0.Final [compile->default(compile)]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;5.1.0.Final [compile->runtime]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;5.1.0.Final [compile->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->antlr#antlr;2.7.7 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->antlr#antlr;2.7.7 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss#jandex;2.0.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss#jandex;2.0.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->compile(*)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.0.b2 [compile->master(compile)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.4.01 [compile->master(compile)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.0.b2 [compile->compile(*)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.4.01 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate.common#hibernate-commons-annotations;5.0.1.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate.common#hibernate-commons-annotations;5.0.1.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->antlr#antlr;2.7.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->antlr#antlr;2.7.7 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss#jandex;2.0.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss#jandex;2.0.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [runtime->compile]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.0.b2 [runtime->runtime(*)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.4.01 [runtime->runtime(*)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.4.01 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate.common#hibernate-commons-annotations;5.0.1.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate.common#hibernate-commons-annotations;5.0.1.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->dom4j#dom4j;1.6.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->dom4j#dom4j;1.6.1 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.javassist#javassist;3.20.0-GA [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.javassist#javassist;3.20.0-GA [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [runtime->compile]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;5.1.0.Final [compile->master]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.6 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-test_2.11;2.4.6 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-test_2.11;2.4.6 {test=[default(compile)]}
@@ -4996,6 +5359,101 @@
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.4.6 [compile->runtime]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.4.6 [compile->compile]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.4.6 [compile->master]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.6 [compile->default(compile)]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.6 [compile->runtime]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.6 [compile->compile]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->com.typesafe.play#play-java-jdbc_2.11;2.4.6 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->com.typesafe.play#play-java-jdbc_2.11;2.4.6 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->com.typesafe.play#play-java-jdbc_2.11;2.4.6 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->com.typesafe.play#play-java-jdbc_2.11;2.4.6 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->compile]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.6 [compile->master]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;5.1.0.Final [compile->default(compile)]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;5.1.0.Final [compile->runtime]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;5.1.0.Final [compile->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->antlr#antlr;2.7.7 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->antlr#antlr;2.7.7 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss#jandex;2.0.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss#jandex;2.0.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->compile(*)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.0.b2 [compile->master(compile)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.4.01 [compile->master(compile)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.0.b2 [compile->compile(*)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.4.01 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate.common#hibernate-commons-annotations;5.0.1.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate.common#hibernate-commons-annotations;5.0.1.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->antlr#antlr;2.7.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->antlr#antlr;2.7.7 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss#jandex;2.0.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss#jandex;2.0.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [runtime->compile]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.0.b2 [runtime->runtime(*)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.4.01 [runtime->runtime(*)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.4.01 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate.common#hibernate-commons-annotations;5.0.1.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate.common#hibernate-commons-annotations;5.0.1.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->dom4j#dom4j;1.6.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->dom4j#dom4j;1.6.1 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.javassist#javassist;3.20.0-GA [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.javassist#javassist;3.20.0-GA [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [runtime->compile]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;5.1.0.Final [compile->master]
 [debug] == resolving dependencies for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT [optional]
 [debug] == resolving dependencies for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT [provided]
 [debug] resolving dependencies for configuration 'runtime-internal'
@@ -5828,6 +6286,101 @@
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.4.6 [compile->runtime]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.4.6 [compile->compile]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.4.6 [compile->master]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.6 [compile->default(compile)]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.6 [compile->runtime]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.6 [compile->compile]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->com.typesafe.play#play-java-jdbc_2.11;2.4.6 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->com.typesafe.play#play-java-jdbc_2.11;2.4.6 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->com.typesafe.play#play-java-jdbc_2.11;2.4.6 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->com.typesafe.play#play-java-jdbc_2.11;2.4.6 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->compile]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.6 [compile->master]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;5.1.0.Final [compile->default(compile)]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;5.1.0.Final [compile->runtime]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;5.1.0.Final [compile->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->antlr#antlr;2.7.7 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->antlr#antlr;2.7.7 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss#jandex;2.0.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss#jandex;2.0.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->compile(*)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.0.b2 [compile->master(compile)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.4.01 [compile->master(compile)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.0.b2 [compile->compile(*)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.4.01 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate.common#hibernate-commons-annotations;5.0.1.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate.common#hibernate-commons-annotations;5.0.1.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->antlr#antlr;2.7.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->antlr#antlr;2.7.7 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss#jandex;2.0.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss#jandex;2.0.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [runtime->compile]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.0.b2 [runtime->runtime(*)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.4.01 [runtime->runtime(*)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.4.01 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate.common#hibernate-commons-annotations;5.0.1.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate.common#hibernate-commons-annotations;5.0.1.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->dom4j#dom4j;1.6.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->dom4j#dom4j;1.6.1 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.javassist#javassist;3.20.0-GA [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.javassist#javassist;3.20.0-GA [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [runtime->compile]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;5.1.0.Final [compile->master]
 [debug] == resolving dependencies for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT [test-internal]
@@ -6660,6 +7213,101 @@
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.4.6 [compile->runtime]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.4.6 [compile->compile]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.4.6 [compile->master]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.6 [compile->default(compile)]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.6 [compile->runtime]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.6 [compile->compile]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->com.typesafe.play#play-java-jdbc_2.11;2.4.6 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->com.typesafe.play#play-java-jdbc_2.11;2.4.6 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->com.typesafe.play#play-java-jdbc_2.11;2.4.6 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->com.typesafe.play#play-java-jdbc_2.11;2.4.6 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.6->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->compile]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.6 [compile->master]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;5.1.0.Final [compile->default(compile)]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;5.1.0.Final [compile->runtime]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;5.1.0.Final [compile->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->antlr#antlr;2.7.7 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->antlr#antlr;2.7.7 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss#jandex;2.0.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss#jandex;2.0.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->compile(*)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.0.b2 [compile->master(compile)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.4.01 [compile->master(compile)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.0.b2 [compile->compile(*)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.4.01 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate.common#hibernate-commons-annotations;5.0.1.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate.common#hibernate-commons-annotations;5.0.1.Final->org.jboss.logging#jboss-logging;3.3.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->dom4j#dom4j;1.6.1 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.javassist#javassist;3.20.0-GA [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->master(compile)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate#hibernate-core;5.1.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.javassist#javassist;3.20.0-GA [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->antlr#antlr;2.7.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->antlr#antlr;2.7.7 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss#jandex;2.0.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.jboss#jandex;2.0.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->com.fasterxml#classmate;1.3.0 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->dom4j#dom4j;1.6.1 [runtime->compile]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.0.b2 [runtime->runtime(*)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.4.01 [runtime->runtime(*)]
+[debug] == resolving dependencies dom4j#dom4j;1.6.1->xml-apis#xml-apis;1.4.01 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-core;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate.common#hibernate-commons-annotations;5.0.1.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate.common#hibernate-commons-annotations;5.0.1.Final->org.jboss.logging#jboss-logging;3.3.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->dom4j#dom4j;1.6.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->dom4j#dom4j;1.6.1 [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.common#hibernate-commons-annotations;5.0.1.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.javassist#javassist;3.20.0-GA [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.javassist#javassist;3.20.0-GA [runtime->compile]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.hibernate#hibernate-entitymanager;5.1.0.Final->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [runtime->compile]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;5.1.0.Final [compile->master]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.6 [test->default(compile)]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.6 [test->runtime]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.6 [test->compile]
@@ -8395,6 +9043,8 @@
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-cache_2.11;2.4.6!play-cache_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-java-ws_2.11;2.4.6!play-java-ws_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-jdbc_2.11;2.4.6!play-jdbc_2.11.jar
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-java-jpa_2.11;2.4.6!play-java-jpa_2.11.jar
+[debug] 	[NOT REQUIRED] org.hibernate#hibernate-entitymanager;5.1.0.Final!hibernate-entitymanager.jar
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.1!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-jdbc-evolutions_2.11;2.4.0!play-jdbc-evolutions_2.11.jar
@@ -8441,7 +9091,6 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.11;0.3.0!scala-java8-compat_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.yaml#snakeyaml;1.15!snakeyaml.jar(bundle)
 [debug] 	[NOT REQUIRED] org.hibernate#hibernate-validator;5.0.3.Final!hibernate-validator.jar
-[debug] 	[NOT REQUIRED] org.jboss.logging#jboss-logging;3.2.1.Final!jboss-logging.jar
 [debug] 	[NOT REQUIRED] org.springframework#spring-context;4.1.6.RELEASE!spring-context.jar
 [debug] 	[NOT REQUIRED] org.springframework#spring-core;4.1.6.RELEASE!spring-core.jar
 [debug] 	[NOT REQUIRED] org.springframework#spring-beans;4.1.6.RELEASE!spring-beans.jar
@@ -8451,7 +9100,6 @@
 [debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;2.0.3!jsr305.jar
 [debug] 	[NOT REQUIRED] org.apache.tomcat#tomcat-servlet-api;8.0.21!tomcat-servlet-api.jar
 [debug] 	[NOT REQUIRED] javax.validation#validation-api;1.1.0.Final!validation-api.jar
-[debug] 	[NOT REQUIRED] com.fasterxml#classmate;1.0.0!classmate.jar(bundle)
 [debug] 	[NOT REQUIRED] io.netty#netty;3.10.4.Final!netty.jar(bundle)
 [debug] 	[NOT REQUIRED] com.typesafe.netty#netty-http-pipelining;1.1.4!netty-http-pipelining.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-jdbc-api_2.11;2.4.6!play-jdbc-api_2.11.jar
@@ -8467,6 +9115,16 @@
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.0.1!httpcore.jar
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.0.1!httpclient.jar
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar
+[debug] 	[NOT REQUIRED] org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final!hibernate-jpa-2.1-api.jar
+[debug] 	[NOT REQUIRED] org.jboss.logging#jboss-logging;3.3.0.Final!jboss-logging.jar
+[debug] 	[NOT REQUIRED] org.hibernate#hibernate-core;5.1.0.Final!hibernate-core.jar
+[debug] 	[NOT REQUIRED] dom4j#dom4j;1.6.1!dom4j.jar
+[debug] 	[NOT REQUIRED] org.hibernate.common#hibernate-commons-annotations;5.0.1.Final!hibernate-commons-annotations.jar
+[debug] 	[NOT REQUIRED] org.javassist#javassist;3.20.0-GA!javassist.jar(bundle)
+[debug] 	[NOT REQUIRED] org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1!geronimo-jta_1.1_spec.jar
+[debug] 	[NOT REQUIRED] antlr#antlr;2.7.7!antlr.jar
+[debug] 	[NOT REQUIRED] org.jboss#jandex;2.0.0.Final!jandex.jar(bundle)
+[debug] 	[NOT REQUIRED] com.fasterxml#classmate;1.3.0!classmate.jar(bundle)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-test_2.11;2.4.6!play-test_2.11.jar
 [debug] 	[NOT REQUIRED] junit#junit;4.12!junit.jar
 [debug] 	[NOT REQUIRED] com.novocode#junit-interface;0.11!junit-interface.jar
@@ -8544,7 +9202,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#control_2.11;0.13.8-M3!control_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.8!akka-actor_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.8!akka-testkit_2.11.jar
-[debug] :: resolution report :: resolve 8030ms :: artifacts dl 259ms
+[debug] :: resolution report :: resolve 10282ms :: artifacts dl 367ms
 [debug] 	report for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT compile produced in C:\Users\Jared\Documents\CGE\cge\target\resolution-cache\reports\campuseventsapp-campuseventsapp_2.11-compile.xml
 [debug] 	report for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT runtime produced in C:\Users\Jared\Documents\CGE\cge\target\resolution-cache\reports\campuseventsapp-campuseventsapp_2.11-runtime.xml
 [debug] 	report for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT test produced in C:\Users\Jared\Documents\CGE\cge\target\resolution-cache\reports\campuseventsapp-campuseventsapp_2.11-test.xml
@@ -8559,5 +9217,5 @@
 [debug] 	report for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT pom produced in C:\Users\Jared\Documents\CGE\cge\target\resolution-cache\reports\campuseventsapp-campuseventsapp_2.11-pom.xml
 [debug] 	report for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT scala-tool produced in C:\Users\Jared\Documents\CGE\cge\target\resolution-cache\reports\campuseventsapp-campuseventsapp_2.11-scala-tool.xml
 [debug] 	report for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT fork-run produced in C:\Users\Jared\Documents\CGE\cge\target\resolution-cache\reports\campuseventsapp-campuseventsapp_2.11-fork-run.xml
-[debug] 	resolve done (8030ms resolve - 259ms download)
+[debug] 	resolve done (10282ms resolve - 367ms download)
 [info] Done updating.

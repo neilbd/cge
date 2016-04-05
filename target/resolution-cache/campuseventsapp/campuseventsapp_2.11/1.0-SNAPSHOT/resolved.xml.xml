@@ -4,7 +4,7 @@
 		module="campuseventsapp_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20160405154729"
+		publication="20160405162921"
 	>
 		<description>
 		campuseventsapp
@@ -48,5 +48,7 @@
 		<dependency org="com.typesafe.play" name="play-cache_2.11" rev="2.4.6" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-java-ws_2.11" rev="2.4.6" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-jdbc_2.11" rev="2.4.6" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-java-jpa_2.11" rev="2.4.6" conf="compile->default(compile)"/>
+		<dependency org="org.hibernate" name="hibernate-entitymanager" rev="5.1.0.Final" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

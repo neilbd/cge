@@ -10,7 +10,8 @@ libraryDependencies ++= Seq(
   javaJdbc,
   cache,
   javaWs,
-  jdbc
+  jdbc,
+  javaJpa
 )
 lazy val myProject = (project in file(".")).enablePlugins(PlayJava, PlayEbean)
 

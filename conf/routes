@@ -13,7 +13,8 @@ GET     /test                       controllers.Application.index
 GET     /sayHello                   controllers.Application.sayHello()
 POST    /sayHello                   controllers.Application.sayHello()
 
-# GET     /getRange                     controllers.Application.getRange()
+# GET     /getRange                   controllers.Application.getRange()
 # GET     /search                     controllers.Application.search()
 
 # POST    /saveEvent                  controllers.Application.saveEvent()
+GET    /saveEvent                  controllers.Application.saveEvent()
