@@ -1,16 +1,43 @@
-New log file opened at Tue Apr 05 16:29:22 EDT 2016 by 9880@Darkmatter
-Taking next connection to: 56307
-New client attempting to connect on port: 56308-56307
-  Address = /169.254.44.155:56307
-This client on port 56308 has uuid 1f99f910-c9a0-4153-84d8-e5734e694487 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: play-fork-run-1f99f910-c9a0-4153-84d8-e5734e694487
-Taking next connection to: 56307
+New log file opened at Sat Apr 09 14:07:06 EDT 2016 by 2392@Darkmatter
+Taking next connection to: 53907
+New client attempting to connect on port: 53908-53907
+  Address = /169.254.44.155:53907
+This client on port 53908 has uuid ccd3c790-c54d-47f1-a184-651588d074d6 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-ccd3c790-c54d-47f1-a184-651588d074d6
+Taking next connection to: 53907
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 56307
+Taking next connection to: 53907
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 56307
+Taking next connection to: 53907
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 56307
+Taking next connection to: 53907
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53907
+New client attempting to connect on port: 54011-53907
+  Address = /169.254.44.155:53907
+Handshake exception on socket: 54011
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 53907
+New client attempting to connect on port: 54012-53907
+  Address = /169.254.44.155:53907
+This client on port 54012 has uuid 6b887f42-b003-4195-ba0e-dc1321fbf360 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-6b887f42-b003-4195-ba0e-dc1321fbf360
+Taking next connection to: 53907

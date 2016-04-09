@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Jared/Documents/CGE/cge/conf/routes
-// @DATE:Tue Apr 05 15:48:59 EDT 2016
+// @DATE:Wed Apr 06 13:26:29 EDT 2016
 
 package router
 
@@ -48,6 +48,8 @@ class Routes(
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """test""", """controllers.Application.index"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """sayHello""", """controllers.Application.sayHello()"""),
     ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """sayHello""", """controllers.Application.sayHello()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """saveEvent""", """controllers.Application.saveEvent()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """viewEvent""", """controllers.Application.search()"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
     case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
@@ -140,6 +142,40 @@ class Routes(
     )
   )
 
+  // @LINE:20
+  private[this] lazy val controllers_Application_saveEvent5_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("saveEvent")))
+  )
+  private[this] lazy val controllers_Application_saveEvent5_invoker = createInvoker(
+    Application_1.saveEvent(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "saveEvent",
+      Nil,
+      "GET",
+      """ POST    /saveEvent                  controllers.Application.saveEvent()""",
+      this.prefix + """saveEvent"""
+    )
+  )
+
+  // @LINE:22
+  private[this] lazy val controllers_Application_search6_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("viewEvent")))
+  )
+  private[this] lazy val controllers_Application_search6_invoker = createInvoker(
+    Application_1.search(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "search",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """viewEvent"""
+    )
+  )
+
 
   def routes: PartialFunction[RequestHeader, Handler] = {
   
@@ -171,6 +207,18 @@ class Routes(
     case controllers_Application_sayHello4_route(params) =>
       call { 
         controllers_Application_sayHello4_invoker.call(Application_1.sayHello())
+      }
+  
+    // @LINE:20
+    case controllers_Application_saveEvent5_route(params) =>
+      call { 
+        controllers_Application_saveEvent5_invoker.call(Application_1.saveEvent())
+      }
+  
+    // @LINE:22
+    case controllers_Application_search6_route(params) =>
+      call { 
+        controllers_Application_search6_invoker.call(Application_1.search())
       }
   }
 }

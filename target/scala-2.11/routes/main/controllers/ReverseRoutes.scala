@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Jared/Documents/CGE/cge/conf/routes
-// @DATE:Tue Apr 05 15:48:59 EDT 2016
+// @DATE:Wed Apr 06 13:26:29 EDT 2016
 
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
 import play.core.routing.{ HandlerDef, ReverseRouteContext, queryString, dynamicString }
@@ -35,6 +35,12 @@ package controllers {
     }
 
   
+    // @LINE:20
+    def saveEvent(): Call = {
+      import ReverseRouteContext.empty
+      Call("GET", _prefix + { _defaultPrefix } + "saveEvent")
+    }
+  
     // @LINE:13
     def sayHello(): Call = {
     
@@ -61,6 +67,12 @@ package controllers {
       
       }
     
+    }
+  
+    // @LINE:22
+    def search(): Call = {
+      import ReverseRouteContext.empty
+      Call("GET", _prefix + { _defaultPrefix } + "viewEvent")
     }
   
   }

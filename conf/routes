@@ -17,4 +17,6 @@ POST    /sayHello                   controllers.Application.sayHello()
 # GET     /search                     controllers.Application.search()
 
 # POST    /saveEvent                  controllers.Application.saveEvent()
-GET    /saveEvent                  controllers.Application.saveEvent()
+GET     /saveEvent                  controllers.Application.saveEvent()
+
+GET     /viewEvent                  controllers.Application.search()

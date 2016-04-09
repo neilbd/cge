@@ -10,6 +10,7 @@ import com.avaje.ebean.Model;
 public class Event extends Model{
 
     @Required
+    @Id
     private int id;
     private String name;
     private Locations location;
@@ -22,6 +23,7 @@ public class Event extends Model{
     //private ArrayList<Tag> tags;
     private String color;
 
+    public static Finder<Integer, Event> find = new Finder<Integer,Event>(Event.class);
 
     public Event(int id, String name, /*Organization org,*/ Locations location, String room, String desc, /*ArrayList<Tag> tags,*/
                  String time, String date, String color){

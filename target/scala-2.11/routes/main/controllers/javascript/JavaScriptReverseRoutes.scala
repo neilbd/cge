@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Jared/Documents/CGE/cge/conf/routes
-// @DATE:Tue Apr 05 15:48:59 EDT 2016
+// @DATE:Wed Apr 06 13:26:29 EDT 2016
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -43,6 +43,16 @@ package controllers.javascript {
     }
 
   
+    // @LINE:20
+    def saveEvent: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.saveEvent",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "saveEvent"})
+        }
+      """
+    )
+  
     // @LINE:13
     def sayHello: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.sayHello",
@@ -67,6 +77,16 @@ package controllers.javascript {
             return _wA({method:"GET", url:"""" + _prefix + """"})
           }
         
+        }
+      """
+    )
+  
+    // @LINE:22
+    def search: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.search",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "viewEvent"})
         }
       """
     )

@@ -1,8 +1,9 @@
 package controllers;
 
 import play.*;
+import play.db.ebean.*;
 import play.mvc.*;
-import play.db.jpa.*;
+//import play.db.jpa.*;
 import play.libs.Json;
 import com.fasterxml.jackson.databind.*;
 import com.fasterxml.jackson.databind.node.*;
@@ -35,22 +36,26 @@ public class Application extends Controller {
         }
 
     }
-    @BodyParser.Of(BodyParser.Json.class)
+    //@BodyParser.Of(BodyParser.Json.class)
     @Transactional
     public Result saveEvent() {
-        ObjectNode result = Json.newObject();
+        /*ObjectNode result = Json.newObject();
         JsonNode json = request().body().asJson();
 
         String name = json.findPath("name").textValue();
-
-        Event event = new Event(1, name, null, null, null, null, null, null);
-        JPA.em().persist(event);
+*/
+        Event event = new Event(1, "Jared", null, null, null, null, null, null);
+        //JPA.em().persist(event);
+        event.save();
         return ok("Data saved");
     }
-    /*
-    public Result search() {
 
+   @Transactional
+    public Result search() {
+        Event anyTask = Event.find.byId(1);
+        return ok(index.render(anyTask.getName()));
     }
+     /*
     public Result getRange() {
 
     }

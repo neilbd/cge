@@ -1,5 +1,8 @@
 [debug] Copy resource mappings: 
 [debug] 	(C:\Users\Jared\Documents\CGE\cge\conf\application.conf,C:\Users\Jared\Documents\CGE\cge\target\scala-2.11\classes\application.conf)
+[debug] 	(C:\Users\Jared\Documents\CGE\cge\conf\evolutions,C:\Users\Jared\Documents\CGE\cge\target\scala-2.11\classes\evolutions)
 [debug] 	(C:\Users\Jared\Documents\CGE\cge\conf\logback.xml,C:\Users\Jared\Documents\CGE\cge\target\scala-2.11\classes\logback.xml)
 [debug] 	(C:\Users\Jared\Documents\CGE\cge\conf\openshift.conf,C:\Users\Jared\Documents\CGE\cge\target\scala-2.11\classes\openshift.conf)
 [debug] 	(C:\Users\Jared\Documents\CGE\cge\conf\routes,C:\Users\Jared\Documents\CGE\cge\target\scala-2.11\classes\routes)
+[debug] 	(C:\Users\Jared\Documents\CGE\cge\conf\evolutions\default,C:\Users\Jared\Documents\CGE\cge\target\scala-2.11\classes\evolutions\default)
+[debug] 	(C:\Users\Jared\Documents\CGE\cge\conf\evolutions\default\1.sql,C:\Users\Jared\Documents\CGE\cge\target\scala-2.11\classes\evolutions\default\1.sql)
