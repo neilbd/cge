@@ -1,5 +1,6 @@
 package controllers;
 
+import com.avaje.ebean.ExpressionList;
 import play.*;
 import play.db.ebean.*;
 import play.mvc.*;
@@ -11,6 +12,8 @@ import models.*;
 
 
 import views.html.*;
+
+import java.util.List;
 
 public class Application extends Controller {
 
@@ -26,33 +29,39 @@ public class Application extends Controller {
         JsonNode json = request().body().asJson();
 
         String name = json.findPath("name").textValue();
-        if(name == null) {
+        if (name == null) {
             return badRequest("missing parameter [name]");
-        }
-        else {
+        } else {
             result.put("yourname", name);
             result.put("type", "event");
             return ok(result);
         }
 
     }
+
     @BodyParser.Of(BodyParser.Json.class)
     @Transactional
     public Result saveEvent() {
-        /*ObjectNode result = Json.newObject();
+        ObjectNode result = Json.newObject();
         JsonNode json = request().body().asJson();
 
-        String name = json.findPath("name").textValue();*/
+        String name = json.findPath("name").textValue();
 
-        Event event = new Event("Neil", null, null, null, null, null, null);
+        Event event = new Event(name, null, null, null, null, null, null);
         event.save();
         return ok("Data saved");
     }
 
-   @Transactional
+    @BodyParser.Of(BodyParser.Json.class)
+    @Transactional
     public Result search() {
-        Event anyTask = Event.find.byId(2);
-        return ok(index.render(anyTask.getName()));
+        ObjectNode result = Json.newObject();
+        JsonNode json = request().body().asJson();
+
+        String name = json.findPath("name").textValue();
+        List<Event> resultList = Event.find.where().ilike("name", "%"+name+"%").findList();
+        // Always gets the first result
+        return ok(resultList.get(0).getName());
     }
      /*
     public Result getRange() {

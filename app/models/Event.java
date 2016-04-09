@@ -1,5 +1,6 @@
 package models;
 
+import com.avaje.ebean.*;
 import play.data.validation.Constraints.*;
 import javax.persistence.*;
 import java.util.*;
@@ -72,6 +73,10 @@ public class Event extends Model{
     public String getColor() { return this.color; }
 
     public void setColor(String color) { this.color = color; }
+
+    public static ExpressionList<Event> findName(String name) {
+        return find.where().like("name", name);
+    }
 
     //public void setTags(ArrayList<Tag> tags) { this.tags = tags; }
 
