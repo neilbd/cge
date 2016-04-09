@@ -36,23 +36,22 @@ public class Application extends Controller {
         }
 
     }
-    //@BodyParser.Of(BodyParser.Json.class)
+    @BodyParser.Of(BodyParser.Json.class)
     @Transactional
     public Result saveEvent() {
         /*ObjectNode result = Json.newObject();
         JsonNode json = request().body().asJson();
 
-        String name = json.findPath("name").textValue();
-*/
-        Event event = new Event(1, "Jared", null, null, null, null, null, null);
-        //JPA.em().persist(event);
+        String name = json.findPath("name").textValue();*/
+
+        Event event = new Event("Neil", null, null, null, null, null, null);
         event.save();
         return ok("Data saved");
     }
 
    @Transactional
     public Result search() {
-        Event anyTask = Event.find.byId(1);
+        Event anyTask = Event.find.byId(2);
         return ok(index.render(anyTask.getName()));
     }
      /*

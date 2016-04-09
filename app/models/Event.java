@@ -10,7 +10,7 @@ import com.avaje.ebean.Model;
 public class Event extends Model{
 
     @Required
-    @Id
+    @Id @GeneratedValue(strategy=GenerationType.IDENTITY)
     private int id;
     private String name;
     private Locations location;
@@ -25,7 +25,7 @@ public class Event extends Model{
 
     public static Finder<Integer, Event> find = new Finder<Integer,Event>(Event.class);
 
-    public Event(int id, String name, /*Organization org,*/ Locations location, String room, String desc, /*ArrayList<Tag> tags,*/
+    public Event(/*int id,*/ String name, /*Organization org,*/ Locations location, String room, String desc, /*ArrayList<Tag> tags,*/
                  String time, String date, String color){
         this.name = name;
         //this.org = org;

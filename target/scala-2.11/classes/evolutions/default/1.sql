@@ -4,7 +4,7 @@
 # --- !Ups
 
 create table event (
-  id                        integer not null,
+  id                        integer auto_increment not null,
   name                      varchar(255),
   room                      varchar(255),
   date                      varchar(255),
@@ -14,8 +14,6 @@ create table event (
   color                     varchar(255),
   constraint pk_event primary key (id))
 ;
-
-create sequence event_seq;
 
 
 
@@ -27,6 +25,4 @@ SET REFERENTIAL_INTEGRITY FALSE;
 drop table if exists event;
 
 SET REFERENTIAL_INTEGRITY TRUE;
-
-drop sequence if exists event_seq;
 

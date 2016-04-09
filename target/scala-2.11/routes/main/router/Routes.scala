@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/Jared/Documents/CGE/cge/conf/routes
-// @DATE:Wed Apr 06 13:26:29 EDT 2016
+// @DATE:Sat Apr 09 15:13:36 EDT 2016
 
 package router
 
