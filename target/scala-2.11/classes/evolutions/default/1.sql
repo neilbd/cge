@@ -4,12 +4,12 @@
 # --- !Ups
 
 create table event (
-  id                        integer auto_increment not null,
+  id                        serial not null,
   name                      varchar(255),
   room                      varchar(255),
   date                      varchar(255),
   time                      varchar(255),
-  desc                      varchar(255),
+  description               varchar(255),
   attendence                integer,
   color                     varchar(255),
   constraint pk_event primary key (id))
@@ -20,9 +20,5 @@ create table event (
 
 # --- !Downs
 
-SET REFERENTIAL_INTEGRITY FALSE;
-
-drop table if exists event;
-
-SET REFERENTIAL_INTEGRITY TRUE;
+drop table if exists event cascade;
 

@@ -1,0 +1,23 @@
+[0m[[0minfo[0m] [0mPackaging C:\Users\Jared\Documents\CGE\cge\target\scala-2.11\campuseventsapp_2.11-1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	evolutions\default\1.sql[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\Jared\Documents\CGE\cge\conf\evolutions\default\1.sql[0m
+[0m[[0mdebug[0m] [0m	evolutions[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\Jared\Documents\CGE\cge\conf\evolutions[0m
+[0m[[0mdebug[0m] [0m	controllers\Application.java[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\Jared\Documents\CGE\cge\app\controllers\Application.java[0m
+[0m[[0mdebug[0m] [0m	evolutions\default[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\Jared\Documents\CGE\cge\conf\evolutions\default[0m
+[0m[[0mdebug[0m] [0m	routes[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\Jared\Documents\CGE\cge\conf\routes[0m
+[0m[[0mdebug[0m] [0m	application.conf[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\Jared\Documents\CGE\cge\conf\application.conf[0m
+[0m[[0mdebug[0m] [0m	models\Event.java[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\Jared\Documents\CGE\cge\app\models\Event.java[0m
+[0m[[0mdebug[0m] [0m	models\Locations.java[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\Jared\Documents\CGE\cge\app\models\Locations.java[0m
+[0m[[0mdebug[0m] [0m	logback.xml[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\Jared\Documents\CGE\cge\conf\logback.xml[0m
+[0m[[0mdebug[0m] [0m	openshift.conf[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\Jared\Documents\CGE\cge\conf\openshift.conf[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

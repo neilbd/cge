@@ -14,6 +14,7 @@ libraryDependencies ++= Seq(
   /*javaJpa,*/
   evolutions
 )
+libraryDependencies += "org.postgresql" % "postgresql" % "9.3-1102-jdbc4"
 lazy val myProject = (project in file(".")).enablePlugins(PlayJava, PlayEbean)
 
 // Play provides two styles of routers, one expects its actions to be injected, the

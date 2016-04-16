@@ -88,6 +88,7 @@
 [0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpclient;4.0.1 ...[0m
 [0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.1.1 ...[0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-jdbc-evolutions_2.11;2.4.6 ...[0m
+[0m[[0minfo[0m] [0mResolving org.postgresql#postgresql;9.3-1102-jdbc4 ...[0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-test_2.11;2.4.6 ...[0m
 [0m[[0minfo[0m] [0mResolving junit#junit;4.12 ...[0m
 [0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-core;1.3 ...[0m
@@ -174,189 +175,12 @@
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0m(Server started, use Ctrl+D to stop and go back to the console...)[0m
 [0m[[0minfo[0m] [0m[0m
-[0m[[0minfo[0m] [0mCompiling 1 Java source to C:\Users\Jared\Documents\CGE\cge\target\scala-2.11\classes...[0m
-[0m[[0minfo[0m] [0mCompiling 1 Scala source to C:\Users\Jared\Documents\CGE\cge\target\scala-2.11\classes...[0m
 [0m[[0minfo[0m] [0m- application - Creating Pool for datasource 'default'[0m
 [0m[[0minfo[0m] [0m- play.api.db.HikariCPConnectionPool - datasource [default] bound to JNDI as DefaultDS[0m
-[0m[[0minfo[0m] [0m- play.api.db.DefaultDBApi - Database [default] connected at jdbc:h2:mem:play[0m
-[0m[[31merror[0m] [0m- application - [0m
-[0m[[0minfo[0m] [0m[0m
-[0m[[0minfo[0m] [0m! @6pkp2cjde - Internal server error, for (GET) [/saveEvent] ->[0m
-[0m[[0minfo[0m] [0m [0m
-[0m[[0minfo[0m] [0mplay.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evolution![An SQL script need to be run on your database.][0m
-[0m[[0minfo[0m] [0m	at play.api.db.evolutions.ApplicationEvolutions$$anonfun$play$api$db$evolutions$ApplicationEvolutions$$runEvolutions$1.apply$mcV$sp(ApplicationEvolutions.scala:76) ~[play-jdbc-evolutions_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.db.evolutions.ApplicationEvolutions.withLock(ApplicationEvolutions.scala:98) ~[play-jdbc-evolutions_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.db.evolutions.ApplicationEvolutions.play$api$db$evolutions$ApplicationEvolutions$$runEvolutions(ApplicationEvolutions.scala:49) ~[play-jdbc-evolutions_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.db.evolutions.ApplicationEvolutions$$anonfun$start$1.apply(ApplicationEvolutions.scala:42) ~[play-jdbc-evolutions_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.db.evolutions.ApplicationEvolutions$$anonfun$start$1.apply(ApplicationEvolutions.scala:42) ~[play-jdbc-evolutions_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at scala.collection.immutable.List.foreach(List.scala:381) ~[scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at play.api.db.evolutions.ApplicationEvolutions.start(ApplicationEvolutions.scala:42) ~[play-jdbc-evolutions_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.db.evolutions.ApplicationEvolutions.<init>(ApplicationEvolutions.scala:149) ~[play-jdbc-evolutions_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.db.evolutions.ApplicationEvolutionsProvider.get$lzycompute(EvolutionsModule.scala:53) ~[play-jdbc-evolutions_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.db.evolutions.ApplicationEvolutionsProvider.get(EvolutionsModule.scala:53) ~[play-jdbc-evolutions_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.db.evolutions.ApplicationEvolutionsProvider.get(EvolutionsModule.scala:44) ~[play-jdbc-evolutions_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at com.google.inject.internal.ProviderInternalFactory.provision(ProviderInternalFactory.java:81) ~[guice-4.0.jar:na][0m
-[0m[[0minfo[0m] [0m	at com.google.inject.internal.BoundProviderFactory.provision(BoundProviderFactory.java:72) ~[guice-4.0.jar:na][0m
-[0m[[0minfo[0m] [0m	at com.google.inject.internal.ProviderInternalFactory.circularGet(ProviderInternalFactory.java:61) ~[guice-4.0.jar:na][0m
-[0m[[0minfo[0m] [0m	at com.google.inject.internal.BoundProviderFactory.get(BoundProviderFactory.java:62) ~[guice-4.0.jar:na][0m
-[0m[[0minfo[0m] [0m	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:46) ~[guice-4.0.jar:na][0m
-[0m[[0minfo[0m] [0m	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1103) ~[guice-4.0.jar:na][0m
-[0m[[0minfo[0m] [0m	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) ~[guice-4.0.jar:na][0m
-[0m[[0minfo[0m] [0m	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:145) ~[guice-4.0.jar:na][0m
-[0m[[0minfo[0m] [0m	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:41) ~[guice-4.0.jar:na][0m
-[0m[[0minfo[0m] [0m	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:205) ~[guice-4.0.jar:na][0m
-[0m[[0minfo[0m] [0m	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:199) ~[guice-4.0.jar:na][0m
-[0m[[0minfo[0m] [0m	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1092) ~[guice-4.0.jar:na][0m
-[0m[[0minfo[0m] [0m	at com.google.inject.internal.InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:199) ~[guice-4.0.jar:na][0m
-[0m[[0minfo[0m] [0m	at com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:180) ~[guice-4.0.jar:na][0m
-[0m[[0minfo[0m] [0m	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:110) ~[guice-4.0.jar:na][0m
-[0m[[0minfo[0m] [0m	at com.google.inject.Guice.createInjector(Guice.java:96) ~[guice-4.0.jar:na][0m
-[0m[[0minfo[0m] [0m	at com.google.inject.Guice.createInjector(Guice.java:73) ~[guice-4.0.jar:na][0m
-[0m[[0minfo[0m] [0m	at com.google.inject.Guice.createInjector(Guice.java:62) ~[guice-4.0.jar:na][0m
-[0m[[0minfo[0m] [0m	at play.api.inject.guice.GuiceBuilder.injector(GuiceInjectorBuilder.scala:126) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.inject.guice.GuiceApplicationBuilder.build(GuiceApplicationBuilder.scala:93) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.inject.guice.GuiceApplicationLoader.load(GuiceApplicationLoader.scala:21) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1$$anonfun$apply$1$$anonfun$1$$anonfun$2.apply(DevServerStart.scala:153) ~[play-server_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1$$anonfun$apply$1$$anonfun$1$$anonfun$2.apply(DevServerStart.scala:150) ~[play-server_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.utils.Threads$.withContextClassLoader(Threads.scala:21) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(DevServerStart.scala:150) ~[play-server_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(DevServerStart.scala:121) ~[play-server_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at scala.Option.map(Option.scala:146) ~[scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1$$anonfun$apply$1.apply(DevServerStart.scala:121) ~[play-server_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1$$anonfun$apply$1.apply(DevServerStart.scala:119) ~[play-server_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at scala.util.Success.flatMap(Try.scala:230) ~[scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:119) ~[play-server_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:111) ~[play-server_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1402) ~[na:1.8.0_51][0m
-[0m[[0minfo[0m] [0m	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) ~[na:1.8.0_51][0m
-[0m[[0minfo[0m] [0m	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) ~[na:1.8.0_51][0m
-[0m[[0minfo[0m] [0m	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1689) ~[na:1.8.0_51][0m
-[0m[[0minfo[0m] [0m	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) ~[na:1.8.0_51][0m
-[0m[[0minfo[0m] [0m- application - Creating Pool for datasource 'default'[0m
-[0m[[0minfo[0m] [0m- play.api.db.HikariCPConnectionPool - datasource [default] bound to JNDI as DefaultDS[0m
-[0m[[0minfo[0m] [0m- play.api.db.DefaultDBApi - Database [default] connected at jdbc:h2:mem:play[0m
+[0m[[0minfo[0m] [0m- play.api.db.DefaultDBApi - Database [default] connected at jdbc:postgresql://localhost:5432/playpsql[0m
 [0m[[0minfo[0m] [0m- play.api.Play - Application started (Dev)[0m
-[0m[[31merror[0m] [0m- play.core.server.netty.PlayDefaultUpstreamHandler - Cannot invoke the action[0m
-[0m[[0minfo[0m] [0mjava.lang.IndexOutOfBoundsException: Index: 0, Size: 0[0m
-[0m[[0minfo[0m] [0m	at java.util.ArrayList.rangeCheck(ArrayList.java:653) ~[na:1.8.0_51][0m
-[0m[[0minfo[0m] [0m	at java.util.ArrayList.get(ArrayList.java:429) ~[na:1.8.0_51][0m
-[0m[[0minfo[0m] [0m	at com.avaje.ebean.common.BeanList.get(BeanList.java:268) ~[avaje-ebeanorm-4.6.2.jar:na][0m
-[0m[[0minfo[0m] [0m	at controllers.Application.search(Application.java:64) ~[classes/:na][0m
-[0m[[0minfo[0m] [0m	at router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$7$$anonfun$apply$7.apply(Routes.scala:221) ~[classes/:na][0m
-[0m[[0minfo[0m] [0m	at router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$7$$anonfun$apply$7.apply(Routes.scala:221) ~[classes/:na][0m
-[0m[[0minfo[0m] [0m	at play.core.routing.HandlerInvokerFactory$$anon$4.resultCall(HandlerInvoker.scala:136) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$14$$anon$3$$anon$1.invocation(HandlerInvoker.scala:127) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:70) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.http.DefaultHttpRequestHandler$1.call(DefaultHttpRequestHandler.java:20) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.db.ebean.TransactionalAction$1.call(TransactionalAction.java:22) ~[play-ebean_2.11-1.0.0.jar:1.0.0][0m
-[0m[[0minfo[0m] [0m	at play.db.ebean.TransactionalAction$1.call(TransactionalAction.java:19) ~[play-ebean_2.11-1.0.0.jar:1.0.0][0m
-[0m[[0minfo[0m] [0m	at com.avaje.ebeaninternal.server.core.DefaultServer.execute(DefaultServer.java:634) ~[avaje-ebeanorm-4.6.2.jar:na][0m
-[0m[[0minfo[0m] [0m	at com.avaje.ebeaninternal.server.core.DefaultServer.execute(DefaultServer.java:628) ~[avaje-ebeanorm-4.6.2.jar:na][0m
-[0m[[0minfo[0m] [0m	at com.avaje.ebean.Ebean.execute(Ebean.java:1394) ~[avaje-ebeanorm-4.6.2.jar:na][0m
-[0m[[0minfo[0m] [0m	at play.db.ebean.TransactionalAction.call(TransactionalAction.java:19) ~[play-ebean_2.11-1.0.0.jar:1.0.0][0m
-[0m[[0minfo[0m] [0m	at play.core.j.JavaAction$$anonfun$7.apply(JavaAction.scala:94) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.core.j.JavaAction$$anonfun$7.apply(JavaAction.scala:94) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:40) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:70) ~[play-iteratees_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:32) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Future$.apply(Future.scala:31) ~[scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.Future$.apply(Future.scala:492) ~[scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at play.core.j.JavaAction.apply(JavaAction.scala:94) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4$$anonfun$apply$5.apply(Action.scala:105) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4$$anonfun$apply$5.apply(Action.scala:105) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.utils.Threads$.withContextClassLoader(Threads.scala:21) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4.apply(Action.scala:104) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4.apply(Action.scala:103) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at scala.Option.map(Option.scala:146) ~[scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at play.api.mvc.Action$$anonfun$apply$1.apply(Action.scala:103) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.mvc.Action$$anonfun$apply$1.apply(Action.scala:96) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.libs.iteratee.Iteratee$$anonfun$mapM$1.apply(Iteratee.scala:524) ~[play-iteratees_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.libs.iteratee.Iteratee$$anonfun$mapM$1.apply(Iteratee.scala:524) ~[play-iteratees_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.libs.iteratee.Iteratee$$anonfun$flatMapM$1.apply(Iteratee.scala:560) ~[play-iteratees_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.libs.iteratee.Iteratee$$anonfun$flatMapM$1.apply(Iteratee.scala:560) ~[play-iteratees_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.libs.iteratee.Iteratee$$anonfun$flatMap$1$$anonfun$apply$14.apply(Iteratee.scala:537) ~[play-iteratees_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.libs.iteratee.Iteratee$$anonfun$flatMap$1$$anonfun$apply$14.apply(Iteratee.scala:537) ~[play-iteratees_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40) [akka-actor_2.11-2.3.13.jar:na][0m
-[0m[[0minfo[0m] [0m	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) [akka-actor_2.11-2.3.13.jar:na][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.6.jar:na][0m
-[0m[[31merror[0m] [0m- application - [0m
-[0m[[0minfo[0m] [0m[0m
-[0m[[0minfo[0m] [0m! @6pkp2l23j - Internal server error, for (GET) [/viewEvent] ->[0m
-[0m[[0minfo[0m] [0m [0m
-[0m[[0minfo[0m] [0mplay.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[IndexOutOfBoundsException: Index: 0, Size: 0]][0m
-[0m[[0minfo[0m] [0m	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:265) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:191) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.GlobalSettings$class.onError(GlobalSettings.scala:179) [play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.DefaultGlobal$.onError(GlobalSettings.scala:212) [play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.http.GlobalSettingsHttpErrorHandler.onServerError(HttpErrorHandler.scala:94) [play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:266) [play-netty-server_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:262) [play-netty-server_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:344) [scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:343) [scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at play.api.libs.iteratee.Execution$trampoline$.executeScheduled(Execution.scala:109) [play-iteratees_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:71) [play-iteratees_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:23) [scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40) [akka-actor_2.11-2.3.13.jar:na][0m
-[0m[[0minfo[0m] [0m	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) [akka-actor_2.11-2.3.13.jar:na][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0mCaused by: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0[0m
-[0m[[0minfo[0m] [0m	at java.util.ArrayList.rangeCheck(ArrayList.java:653) ~[na:1.8.0_51][0m
-[0m[[0minfo[0m] [0m	at java.util.ArrayList.get(ArrayList.java:429) ~[na:1.8.0_51][0m
-[0m[[0minfo[0m] [0m	at com.avaje.ebean.common.BeanList.get(BeanList.java:268) ~[avaje-ebeanorm-4.6.2.jar:na][0m
-[0m[[0minfo[0m] [0m	at controllers.Application.search(Application.java:64) ~[classes/:na][0m
-[0m[[0minfo[0m] [0m	at router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$7$$anonfun$apply$7.apply(Routes.scala:221) ~[classes/:na][0m
-[0m[[0minfo[0m] [0m	at router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$7$$anonfun$apply$7.apply(Routes.scala:221) ~[classes/:na][0m
-[0m[[0minfo[0m] [0m	at play.core.routing.HandlerInvokerFactory$$anon$4.resultCall(HandlerInvoker.scala:136) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$14$$anon$3$$anon$1.invocation(HandlerInvoker.scala:127) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:70) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.http.DefaultHttpRequestHandler$1.call(DefaultHttpRequestHandler.java:20) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.db.ebean.TransactionalAction$1.call(TransactionalAction.java:22) ~[play-ebean_2.11-1.0.0.jar:1.0.0][0m
-[0m[[0minfo[0m] [0m	at play.db.ebean.TransactionalAction$1.call(TransactionalAction.java:19) ~[play-ebean_2.11-1.0.0.jar:1.0.0][0m
-[0m[[0minfo[0m] [0m	at com.avaje.ebeaninternal.server.core.DefaultServer.execute(DefaultServer.java:634) ~[avaje-ebeanorm-4.6.2.jar:na][0m
-[0m[[0minfo[0m] [0m	at com.avaje.ebeaninternal.server.core.DefaultServer.execute(DefaultServer.java:628) ~[avaje-ebeanorm-4.6.2.jar:na][0m
-[0m[[0minfo[0m] [0m	at com.avaje.ebean.Ebean.execute(Ebean.java:1394) ~[avaje-ebeanorm-4.6.2.jar:na][0m
-[0m[[0minfo[0m] [0m	at play.db.ebean.TransactionalAction.call(TransactionalAction.java:19) ~[play-ebean_2.11-1.0.0.jar:1.0.0][0m
-[0m[[0minfo[0m] [0m	at play.core.j.JavaAction$$anonfun$7.apply(JavaAction.scala:94) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.core.j.JavaAction$$anonfun$7.apply(JavaAction.scala:94) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:40) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:70) [play-iteratees_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:32) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Future$.apply(Future.scala:31) ~[scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.Future$.apply(Future.scala:492) ~[scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at play.core.j.JavaAction.apply(JavaAction.scala:94) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4$$anonfun$apply$5.apply(Action.scala:105) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4$$anonfun$apply$5.apply(Action.scala:105) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.utils.Threads$.withContextClassLoader(Threads.scala:21) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4.apply(Action.scala:104) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4.apply(Action.scala:103) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at scala.Option.map(Option.scala:146) ~[scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at play.api.mvc.Action$$anonfun$apply$1.apply(Action.scala:103) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.mvc.Action$$anonfun$apply$1.apply(Action.scala:96) ~[play_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.libs.iteratee.Iteratee$$anonfun$mapM$1.apply(Iteratee.scala:524) ~[play-iteratees_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.libs.iteratee.Iteratee$$anonfun$mapM$1.apply(Iteratee.scala:524) ~[play-iteratees_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.libs.iteratee.Iteratee$$anonfun$flatMapM$1.apply(Iteratee.scala:560) ~[play-iteratees_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.libs.iteratee.Iteratee$$anonfun$flatMapM$1.apply(Iteratee.scala:560) ~[play-iteratees_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.libs.iteratee.Iteratee$$anonfun$flatMap$1$$anonfun$apply$14.apply(Iteratee.scala:537) ~[play-iteratees_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at play.api.libs.iteratee.Iteratee$$anonfun$flatMap$1$$anonfun$apply$14.apply(Iteratee.scala:537) ~[play-iteratees_2.11-2.4.6.jar:2.4.6][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library-2.11.6.jar:na][0m
-[0m[[0minfo[0m] [0m	... 6 common frames omitted[0m
+[0m[[0minfo[0m] [0mStopping Play fork run ...[0m
+[0m[[0minfo[0m] [0m- application - Shutting down connection pool.[0m
+[0m[[0minfo[0m] [0mJVM exiting, shutting down Play fork run ...[0m
+[0m[[0minfo[0m] [0mPlay fork run already stopped ...[0m
+[0m[[0minfo[0m] [0mForked Play process exited with status: 0[0m

@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT [compile]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8c680fd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@613ae39d
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6
 [debug] 	found org.scala-lang#scala-library;2.11.6 in sbt-chain
 [debug] 	[2.11.6] org.scala-lang#scala-library;2.11.6
@@ -510,7 +510,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
-[debug] 	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.pom(pom.original) (89ms)
+[debug] 	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.pom(pom.original) (132ms)
 [info] Resolving com.google.inject.extensions#extensions-parent;4.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.google.inject.extensions#extensions-parent;4.0 {}
 [debug] sbt-chain: module revision found in cache: com.google.inject.extensions#extensions-parent;4.0
@@ -1273,6 +1273,14 @@
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.4.6 [compile->compile]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.4.6 [compile->master(compile)]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.4.6 [compile->compile(*)]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.3-1102-jdbc4 [compile->default(compile)]
+[info] Resolving org.postgresql#postgresql;9.3-1102-jdbc4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.postgresql#postgresql;9.3-1102-jdbc4 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.postgresql#postgresql;9.3-1102-jdbc4
+[debug] 	found org.postgresql#postgresql;9.3-1102-jdbc4 in sbt-chain
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.3-1102-jdbc4 [compile->runtime]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.3-1102-jdbc4 [compile->compile]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.3-1102-jdbc4 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT [runtime]
 [debug] == resolving dependencies for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT [compile]
@@ -2106,6 +2114,10 @@
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.4.6 [compile->runtime]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.4.6 [compile->compile]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.4.6 [compile->master]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.3-1102-jdbc4 [compile->default(compile)]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.3-1102-jdbc4 [compile->runtime]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.3-1102-jdbc4 [compile->compile]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.3-1102-jdbc4 [compile->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT [test]
 [debug] == resolving dependencies for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT [runtime]
@@ -2940,6 +2952,10 @@
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.4.6 [compile->runtime]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.4.6 [compile->compile]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.4.6 [compile->master]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.3-1102-jdbc4 [compile->default(compile)]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.3-1102-jdbc4 [compile->runtime]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.3-1102-jdbc4 [compile->compile]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.3-1102-jdbc4 [compile->master]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.6 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-test_2.11;2.4.6 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-test_2.11;2.4.6 {test=[default(compile)]}
@@ -4668,6 +4684,10 @@
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.4.6 [compile->runtime]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.4.6 [compile->compile]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.4.6 [compile->master]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.3-1102-jdbc4 [compile->default(compile)]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.3-1102-jdbc4 [compile->runtime]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.3-1102-jdbc4 [compile->compile]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.3-1102-jdbc4 [compile->master]
 [debug] == resolving dependencies for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT [optional]
 [debug] == resolving dependencies for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT [provided]
 [debug] resolving dependencies for configuration 'runtime-internal'
@@ -5504,6 +5524,10 @@
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.4.6 [compile->runtime]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.4.6 [compile->compile]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.4.6 [compile->master]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.3-1102-jdbc4 [compile->default(compile)]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.3-1102-jdbc4 [compile->runtime]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.3-1102-jdbc4 [compile->compile]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.3-1102-jdbc4 [compile->master]
 [debug] == resolving dependencies for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT [test-internal]
@@ -6340,6 +6364,10 @@
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.4.6 [compile->runtime]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.4.6 [compile->compile]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.4.6 [compile->master]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.3-1102-jdbc4 [compile->default(compile)]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.3-1102-jdbc4 [compile->runtime]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.3-1102-jdbc4 [compile->compile]
+[debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.3-1102-jdbc4 [compile->master]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.6 [test->default(compile)]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.6 [test->runtime]
 [debug] == resolving dependencies campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.6 [test->compile]
@@ -8076,6 +8104,7 @@
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-java-ws_2.11;2.4.6!play-java-ws_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-jdbc_2.11;2.4.6!play-jdbc_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-jdbc-evolutions_2.11;2.4.6!play-jdbc-evolutions_2.11.jar
+[debug] 	[NOT REQUIRED] org.postgresql#postgresql;9.3-1102-jdbc4!postgresql.jar
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.1!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.avaje.ebeanorm#avaje-ebeanorm;4.6.2!avaje-ebeanorm.jar
@@ -8224,7 +8253,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#control_2.11;0.13.8-M3!control_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.8!akka-actor_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.8!akka-testkit_2.11.jar
-[debug] :: resolution report :: resolve 7404ms :: artifacts dl 223ms
+[debug] :: resolution report :: resolve 8001ms :: artifacts dl 211ms
 [debug] 	report for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT compile produced in C:\Users\Jared\Documents\CGE\cge\target\resolution-cache\reports\campuseventsapp-campuseventsapp_2.11-compile.xml
 [debug] 	report for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT runtime produced in C:\Users\Jared\Documents\CGE\cge\target\resolution-cache\reports\campuseventsapp-campuseventsapp_2.11-runtime.xml
 [debug] 	report for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT test produced in C:\Users\Jared\Documents\CGE\cge\target\resolution-cache\reports\campuseventsapp-campuseventsapp_2.11-test.xml
@@ -8239,5 +8268,5 @@
 [debug] 	report for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT pom produced in C:\Users\Jared\Documents\CGE\cge\target\resolution-cache\reports\campuseventsapp-campuseventsapp_2.11-pom.xml
 [debug] 	report for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT scala-tool produced in C:\Users\Jared\Documents\CGE\cge\target\resolution-cache\reports\campuseventsapp-campuseventsapp_2.11-scala-tool.xml
 [debug] 	report for campuseventsapp#campuseventsapp_2.11;1.0-SNAPSHOT fork-run produced in C:\Users\Jared\Documents\CGE\cge\target\resolution-cache\reports\campuseventsapp-campuseventsapp_2.11-fork-run.xml
-[debug] 	resolve done (7404ms resolve - 223ms download)
+[debug] 	resolve done (8001ms resolve - 211ms download)
 [info] Done updating.

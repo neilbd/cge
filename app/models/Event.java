@@ -19,20 +19,20 @@ public class Event extends Model{
     private String date;
     private String time;
     //private Organization org;
-    private String desc;
+    private String description;
     private int attendence;
     //private ArrayList<Tag> tags;
     private String color;
 
     public static Finder<Integer, Event> find = new Finder<Integer,Event>(Event.class);
 
-    public Event(/*int id,*/ String name, /*Organization org,*/ Locations location, String room, String desc, /*ArrayList<Tag> tags,*/
+    public Event(/*int id,*/ String name, /*Organization org,*/ Locations location, String room, String description, /*ArrayList<Tag> tags,*/
                  String time, String date, String color){
         this.name = name;
         //this.org = org;
         this.location = location;
         this.room = room;
-        this.desc = desc;
+        this.description = description;
         //this.tags = tags;
         this.time = time;
         this.date = date;
@@ -62,9 +62,9 @@ public class Event extends Model{
 
     public String getRoom() { return this.room; }
 
-    public String getDesc() { return this.desc; }
+    public String getDesc() { return this.description; }
 
-    public void setDesc(String desc) { this.desc = desc; }
+    public void setDesc(String description) { this.description = description; }
 
     public String getTime() { return this.time; }
 
