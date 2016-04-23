@@ -4,7 +4,7 @@
 		module="campuseventsapp_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20160416164939"
+		publication="20160423140409"
 	>
 		<description>
 		campuseventsapp
@@ -49,6 +49,5 @@
 		<dependency org="com.typesafe.play" name="play-java-ws_2.11" rev="2.4.6" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-jdbc_2.11" rev="2.4.6" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-jdbc-evolutions_2.11" rev="2.4.6" conf="compile->default(compile)"/>
-		<dependency org="org.postgresql" name="postgresql" rev="9.3-1102-jdbc4" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

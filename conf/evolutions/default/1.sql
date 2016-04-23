@@ -4,7 +4,7 @@
 # --- !Ups
 
 create table event (
-  id                        serial not null,
+  id                        integer auto_increment not null,
   name                      varchar(255),
   room                      varchar(255),
   date                      varchar(255),
@@ -20,5 +20,9 @@ create table event (
 
 # --- !Downs
 
-drop table if exists event cascade;
+SET REFERENTIAL_INTEGRITY FALSE;
+
+drop table if exists event;
+
+SET REFERENTIAL_INTEGRITY TRUE;
 
