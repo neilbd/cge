@@ -20,3 +20,5 @@ POST    /sayHello                   controllers.Application.sayHello()
 GET     /saveEvent                  controllers.Application.saveEvent()
 
 GET     /viewEvent                  controllers.Application.search()
+
+GET     /outputByDate               controllers.Application.outputByDate
