@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Users/Jared/Documents/CGE/cge/conf/routes
-// @DATE:Sat Apr 16 16:43:01 EDT 2016
+// @SOURCE:/Users/neilbd/Documents/CGE/cge/conf/routes
+// @DATE:Mon Jun 27 21:51:00 EDT 2016
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -43,16 +43,6 @@ package controllers.javascript {
     }
 
   
-    // @LINE:20
-    def saveEvent: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.Application.saveEvent",
-      """
-        function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "saveEvent"})
-        }
-      """
-    )
-  
     // @LINE:13
     def sayHello: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.sayHello",
@@ -67,16 +57,22 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:6
-    def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.Application.index",
+    // @LINE:20
+    def saveEvent: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.saveEvent",
       """
         function() {
-        
-          if (true) {
-            return _wA({method:"GET", url:"""" + _prefix + """"})
-          }
-        
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "saveEvent"})
+        }
+      """
+    )
+  
+    // @LINE:24
+    def outputByDate: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.outputByDate",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "outputByDate"})
         }
       """
     )
@@ -87,6 +83,20 @@ package controllers.javascript {
       """
         function() {
           return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "viewEvent"})
+        }
+      """
+    )
+  
+    // @LINE:6
+    def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.index",
+      """
+        function() {
+        
+          if (true) {
+            return _wA({method:"GET", url:"""" + _prefix + """"})
+          }
+        
         }
       """
     )

@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Users/Jared/Documents/CGE/cge/conf/routes
-// @DATE:Sat Apr 16 16:43:01 EDT 2016
+// @SOURCE:/Users/neilbd/Documents/CGE/cge/conf/routes
+// @DATE:Mon Jun 27 21:51:00 EDT 2016
 
 package router
 
@@ -50,6 +50,7 @@ class Routes(
     ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """sayHello""", """controllers.Application.sayHello()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """saveEvent""", """controllers.Application.saveEvent()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """viewEvent""", """controllers.Application.search()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """outputByDate""", """controllers.Application.outputByDate"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
     case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
@@ -176,6 +177,23 @@ class Routes(
     )
   )
 
+  // @LINE:24
+  private[this] lazy val controllers_Application_outputByDate7_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("outputByDate")))
+  )
+  private[this] lazy val controllers_Application_outputByDate7_invoker = createInvoker(
+    Application_1.outputByDate,
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "outputByDate",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """outputByDate"""
+    )
+  )
+
 
   def routes: PartialFunction[RequestHeader, Handler] = {
   
@@ -219,6 +237,12 @@ class Routes(
     case controllers_Application_search6_route(params) =>
       call { 
         controllers_Application_search6_invoker.call(Application_1.search())
+      }
+  
+    // @LINE:24
+    case controllers_Application_outputByDate7_route(params) =>
+      call { 
+        controllers_Application_outputByDate7_invoker.call(Application_1.outputByDate)
       }
   }
 }
