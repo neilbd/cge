@@ -99,3 +99,10 @@ Set current project to campuseventsapp (in build file:/Users/neilbd/Documents/CG
 > iflast shell
 > server-send-ready-for-request
 > server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 4037@neilbd-pc.local logs at Thu Jul 21 09:32:11 EDT 2016, goodbye.

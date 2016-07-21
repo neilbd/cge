@@ -5,3 +5,9 @@ New client attempting to connect on port: 50136-50135
 This client on port 50136 has uuid d4b13509-fe7d-4dc8-84dc-3379481dd29c configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
 Connected Clients: play-fork-run-d4b13509-fe7d-4dc8-84dc-3379481dd29c
 Taking next connection to: 50135
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 4037@neilbd-pc.local logs at Thu Jul 21 09:32:11 EDT 2016, goodbye.
