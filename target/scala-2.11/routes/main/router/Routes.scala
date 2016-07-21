@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/neilbd/Documents/CGE/cge/conf/routes
-// @DATE:Mon Jun 27 21:51:00 EDT 2016
+// @DATE:Thu Jul 21 09:24:58 EDT 2016
 
 package router
 
@@ -50,7 +50,7 @@ class Routes(
     ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """sayHello""", """controllers.Application.sayHello()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """saveEvent""", """controllers.Application.saveEvent()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """viewEvent""", """controllers.Application.search()"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """outputByDate""", """controllers.Application.outputByDate"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """outputByDate""", """controllers.Application.outputByDate()"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
     case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
@@ -182,7 +182,7 @@ class Routes(
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("outputByDate")))
   )
   private[this] lazy val controllers_Application_outputByDate7_invoker = createInvoker(
-    Application_1.outputByDate,
+    Application_1.outputByDate(),
     HandlerDef(this.getClass.getClassLoader,
       "router",
       "controllers.Application",
@@ -242,7 +242,7 @@ class Routes(
     // @LINE:24
     case controllers_Application_outputByDate7_route(params) =>
       call { 
-        controllers_Application_outputByDate7_invoker.call(Application_1.outputByDate)
+        controllers_Application_outputByDate7_invoker.call(Application_1.outputByDate())
       }
   }
 }

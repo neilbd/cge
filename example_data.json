@@ -1,0 +1,1 @@
+curl --header "Content-type: application/json" --request GET --data '{"name": "Jake", "location": "Dey Hall", "room": "301", "description": "Test for event 2", "time": "2:00", "date": "3/10/2017", "color": "blue" }' http://localhost:9000/saveEvent

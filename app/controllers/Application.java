@@ -56,6 +56,7 @@ public class Application extends Controller {
         String date = json.findPath("date").textValue();
         String color = json.findPath("color").textValue();
 
+        // Event event = new Event(name, null, null, null, null, null, null);
         Event event = new Event(name, location, room, description, time, date, color);
         event.save();
         return ok("Data saved");
@@ -64,13 +65,14 @@ public class Application extends Controller {
     @BodyParser.Of(BodyParser.Json.class)
     @Transactional
     public Result search() {
-        ObjectNode result = Json.newObject();
+
         JsonNode json = request().body().asJson();
 
         String name = json.findPath("name").textValue();
         List<Event> resultList = Event.find.where().ilike("name", "%"+name+"%").findList();
+        JsonNode result = Json.toJson(resultList);
         // Always gets the first result
-        return ok(resultList.get(0).getName());
+        return ok(result);
     }
 
     @BodyParser.Of(BodyParser.Json.class)
@@ -80,7 +82,7 @@ public class Application extends Controller {
         JsonNode json = request().body().asJson();
 
         // events greater than current date from most recent date to farthest away
-        List<Event> resultList = Event.find.where().ge("Date", new Date()).orderBy("date, date asc").findList();
+        List<Event> resultList = Event.find.where().ge("Date", new Date()).orderBy("date desc").findList();
         JsonNode result = Json.toJson(resultList);
         return ok(result);
     }

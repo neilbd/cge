@@ -2,408 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf1f3b1f-3133-42d9-9e06-9ade1b5aec39" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sbtserver/connections/play-fork-run-0da02090-d4ca-4278-9b08-2f0863928704.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/campuseventsapp/campuseventsapp$sources_2.11/1.0-SNAPSHOT/resolved.xml.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/campuseventsapp/campuseventsapp$sources_2.11/1.0-SNAPSHOT/resolved.xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/campuseventsapp-campuseventsapp$sources_2.11-compile-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/campuseventsapp-campuseventsapp$sources_2.11-compile.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/campuseventsapp-campuseventsapp$sources_2.11-docs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/campuseventsapp-campuseventsapp$sources_2.11-fork-run.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/campuseventsapp-campuseventsapp$sources_2.11-optional.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/campuseventsapp-campuseventsapp$sources_2.11-plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/campuseventsapp-campuseventsapp$sources_2.11-pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/campuseventsapp-campuseventsapp$sources_2.11-provided.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/campuseventsapp-campuseventsapp$sources_2.11-runtime-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/campuseventsapp-campuseventsapp$sources_2.11-runtime.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/campuseventsapp-campuseventsapp$sources_2.11-scala-tool.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/campuseventsapp-campuseventsapp$sources_2.11-sources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/campuseventsapp-campuseventsapp$sources_2.11-test-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/campuseventsapp-campuseventsapp$sources_2.11-test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/controllers/Application.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/controllers/ReverseApplication.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/controllers/ReverseAssets.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/controllers/javascript/ReverseApplication.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/controllers/javascript/ReverseAssets.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/controllers/javascript/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/controllers/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/controllers/routes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-_.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-a.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-b.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-c.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-e.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-f.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-g.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-h.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-i.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-j.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-l.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-m.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-p.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-r.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-s.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-v.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/index/index-w.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/arrow-down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/arrow-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/class.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/class_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/class_diagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/class_to_object_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/constructorsbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/conversionbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/defbg-blue.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/defbg-green.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/diagrams.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/diagrams.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/filter_box_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/filter_box_left2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/filter_box_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/filterbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/filterboxbarbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/filterboxbarbg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/filterboxbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/fullcommenttopbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/jquery.layout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/modernizr.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/navigation-li-a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/navigation-li.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/object.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/object_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/object_diagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/object_to_class_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/object_to_trait_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/object_to_type_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/ownderbg2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/ownerbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/ownerbg2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/package.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/package_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/packagesbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/permalink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/ref-index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/remove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/scheduler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/selected-implicits.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/selected-right-implicits.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/selected-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/selected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/selected2-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/selected2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/signaturebg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/signaturebg2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/template.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/tools.tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/trait.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/trait_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/trait_diagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/trait_to_object_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/type.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/type_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/type_diagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/type_to_object_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/typebg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/unselected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/lib/valuemembersbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/models/Event.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/models/Locations.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/models/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/router/Routes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/router/RoutesPrefix$.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/router/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/views/html/index$.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/views/html/index_Scope0$$index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/views/html/index_Scope0$.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/views/html/main$.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/views/html/main_Scope0$$main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/views/html/main_Scope0$.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/views/html/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/api/views/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/campuseventsapp_2.11-1.0-SNAPSHOT-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/campuseventsapp_2.11-1.0-SNAPSHOT-sans-externalized.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/campuseventsapp_2.11-1.0-SNAPSHOT-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/campuseventsapp_2.11-1.0-SNAPSHOT-web-assets.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/campuseventsapp_2.11-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/campuseventsapp_2.11-1.0-SNAPSHOT.pom" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/application.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/evolutions/default/1.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/openshift.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/routes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/coffeescript/$global/streams/copy-resource/op-cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/compilerReporter/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/jshint/$global/streams/copy-resource/op-cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/less/$global/streams/copy-resource/op-cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/makePom/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/mappings/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/webReporter/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/scala/inputs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/scala/output" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/output" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/inputs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/output" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/inputs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/output" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/playJarSansExternalized/$global/streams/inputs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/playJarSansExternalized/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/playJarSansExternalized/$global/streams/output" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/test/unmanagedJars/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/universal/stage/$global/streams/packager-mappings-universal" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/web-assets/assets/$global/streams/sync-mappings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/web-assets/coffeescript/$global/streams/run/op-cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/web-assets/jshint/$global/streams/run/op-cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/web-assets/less/$global/streams/run/op-cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/web-assets/packageBin/$global/streams/inputs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/web-assets/packageBin/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/web-assets/packageBin/$global/streams/output" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/web-assets/webExportedDirectory/$global/streams/sync-mappings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/bin/campuseventsapp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/bin/campuseventsapp.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/conf/application.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/conf/evolutions/default/1.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/conf/logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/conf/openshift.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/conf/routes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/aopalliance.aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/campuseventsapp.campuseventsapp-1.0-SNAPSHOT-assets.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/campuseventsapp.campuseventsapp-1.0-SNAPSHOT-sans-externalized.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/ch.qos.logback.logback-classic-1.1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/ch.qos.logback.logback-core-1.1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.fasterxml.classmate-1.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.fasterxml.jackson.core.jackson-annotations-2.5.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.fasterxml.jackson.core.jackson-core-2.5.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.fasterxml.jackson.core.jackson-databind-2.5.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.fasterxml.jackson.datatype.jackson-datatype-jdk8-2.5.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.fasterxml.jackson.datatype.jackson-datatype-jsr310-2.5.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.google.code.findbugs.jsr305-2.0.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.google.guava.guava-18.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.google.inject.extensions.guice-assistedinject-4.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.google.inject.guice-4.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.h2database.h2-1.4.187.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.jolbox.bonecp-0.8.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.ning.async-http-client-1.9.21.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.akka.akka-actor_2.11-2.3.13.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.akka.akka-slf4j_2.11-2.3.13.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.config-1.3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.netty.netty-http-pipelining-1.1.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.play.build-link-2.4.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.play.play-cache_2.11-2.4.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.play.play-datacommons_2.11-2.4.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.play.play-ebean_2.11-1.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.play.play-enhancer-1.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.play.play-exceptions-2.4.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.play.play-functional_2.11-2.4.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.play.play-iteratees_2.11-2.4.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.play.play-java-jdbc_2.11-2.4.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.play.play-java-ws_2.11-2.4.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.play.play-java_2.11-2.4.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.play.play-jdbc-api_2.11-2.4.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.play.play-jdbc-evolutions_2.11-2.4.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.play.play-jdbc_2.11-2.4.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.play.play-json_2.11-2.4.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.play.play-netty-server_2.11-2.4.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.play.play-netty-utils-2.4.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.play.play-server_2.11-2.4.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.play.play-ws_2.11-2.4.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.play.play_2.11-2.4.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.typesafe.play.twirl-api_2.11-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/com.zaxxer.HikariCP-2.3.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/commons-codec.commons-codec-1.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/commons-logging.commons-logging-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/io.netty.netty-3.10.4.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/javax.inject.javax.inject-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/javax.persistence.persistence-api-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/javax.transaction.jta-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/javax.validation.validation-api-1.1.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/joda-time.joda-time-2.8.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/net.jodah.typetools-0.4.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/net.sf.ehcache.ehcache-core-2.6.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/oauth.signpost.signpost-commonshttp4-1.2.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/oauth.signpost.signpost-core-1.2.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.apache.commons.commons-lang3-3.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.apache.httpcomponents.httpclient-4.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.apache.httpcomponents.httpcore-4.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.apache.tomcat.tomcat-servlet-api-8.0.21.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.avaje.ebeanorm.avaje-ebeanorm-4.6.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.avaje.ebeanorm.avaje-ebeanorm-agent-4.5.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.hibernate.hibernate-validator-5.0.3.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.javassist.javassist-3.19.0-GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.jboss.logging.jboss-logging-3.2.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.joda.joda-convert-1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.postgresql.postgresql-9.3-1102-jdbc4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.reflections.reflections-0.9.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.scala-lang.modules.scala-java8-compat_2.11-0.3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.scala-lang.modules.scala-parser-combinators_2.11-1.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.scala-lang.modules.scala-xml_2.11-1.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.scala-lang.scala-library-2.11.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.scala-lang.scala-reflect-2.11.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.scala-stm.scala-stm_2.11-0.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.slf4j.jcl-over-slf4j-1.7.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.slf4j.jul-to-slf4j-1.7.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.slf4j.slf4j-api-1.7.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.springframework.spring-beans-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.springframework.spring-context-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.springframework.spring-core-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/org.yaml.snakeyaml-1.15.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/tyrex.tyrex-1.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/xerces.xercesImpl-2.11.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/lib/xml-apis.xml-apis-1.4.01.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/controllers/Application.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/controllers/ReverseApplication.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/controllers/ReverseAssets.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/controllers/javascript/ReverseApplication.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/controllers/javascript/ReverseAssets.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/controllers/javascript/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/controllers/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/controllers/routes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/index/index-_.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/index/index-a.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/index/index-b.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/index/index-c.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/index/index-d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/index/index-e.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/index/index-f.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/index/index-g.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/index/index-h.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/index/index-i.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/index/index-j.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/index/index-l.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/index/index-m.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/index/index-p.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/index/index-r.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/index/index-s.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/index/index-v.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/index/index-w.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/arrow-down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/arrow-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/class.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/class_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/class_diagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/class_to_object_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/constructorsbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/conversionbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/defbg-blue.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/defbg-green.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/diagrams.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/diagrams.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/filter_box_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/filter_box_left2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/filter_box_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/filterbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/filterboxbarbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/filterboxbarbg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/filterboxbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/fullcommenttopbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/jquery.layout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/modernizr.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/navigation-li-a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/navigation-li.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/object.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/object_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/object_diagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/object_to_class_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/object_to_trait_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/object_to_type_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/ownderbg2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/ownerbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/ownerbg2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/package.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/package_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/packagesbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/permalink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/ref-index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/remove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/scheduler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/selected-implicits.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/selected-right-implicits.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/selected-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/selected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/selected2-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/selected2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/signaturebg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/signaturebg2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/template.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/tools.tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/trait.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/trait_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/trait_diagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/trait_to_object_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/type.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/type_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/type_diagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/type_to_object_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/typebg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/unselected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/lib/valuemembersbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/models/Event.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/models/Locations.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/models/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/router/Routes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/router/RoutesPrefix$.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/router/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/views/html/index$.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/views/html/index_Scope0$$index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/views/html/index_Scope0$.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/views/html/main$.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/views/html/main_Scope0$$main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/views/html/main_Scope0$.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/views/html/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/views/package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/campuseventsapp/1.0-SNAPSHOT/images/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/campuseventsapp/1.0-SNAPSHOT/javascripts/hello.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/campuseventsapp/1.0-SNAPSHOT/stylesheets/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/web/public/main/images/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/web/public/main/javascripts/hello.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/web/public/main/stylesheets/main.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/routes.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/routes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index_Scope0$index.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index_Scope0$index.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/main_Scope0$main.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/main_Scope0$main.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sbtserver/connections/play-fork-run-4c256f4e-03cf-4c04-af9d-af418961cb94.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/playRoutes/$global/streams/op-cache" afterPath="$PROJECT_DIR$/target/streams/compile/playRoutes/$global/streams/op-cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sbtserver/connections/master.log" afterPath="$PROJECT_DIR$/.sbtserver/connections/master.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sbtserver/master.log" afterPath="$PROJECT_DIR$/.sbtserver/master.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sbtserver/previous.log" afterPath="$PROJECT_DIR$/.sbtserver/previous.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Application.java" afterPath="$PROJECT_DIR$/app/controllers/Application.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/.sbtserver" afterPath="$PROJECT_DIR$/project/.sbtserver" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/campuseventsapp/campuseventsapp_2.11/1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/campuseventsapp/campuseventsapp_2.11/1.0-SNAPSHOT/resolved.xml.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/campuseventsapp/campuseventsapp_2.11/1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/campuseventsapp/campuseventsapp_2.11/1.0-SNAPSHOT/resolved.xml.xml" />
@@ -429,19 +35,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/index.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/index.template.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/main.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/main.template.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/playForkRun/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/playForkRun/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/playEnhancerGenerateAccessors/$global/streams/play_instrumentation_2.11" afterPath="$PROJECT_DIR$/target/streams/compile/playEnhancerGenerateAccessors/$global/streams/play_instrumentation_2.11" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/playEnhancerRewriteAccessors/$global/streams/play_instrumentation_2.11" afterPath="$PROJECT_DIR$/target/streams/compile/playEnhancerRewriteAccessors/$global/streams/play_instrumentation_2.11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
     </list>
     <ignored path="cge.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -467,30 +65,17 @@
       <file leaf-file-name="Event.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/Event.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state vertical-scroll-proportion="-31.11111">
+              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1211#1212#0" expanded="true" />
+                <element signature="e#1826#1827#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.111111">
-              <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="post_deploy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/post_deploy">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -499,21 +84,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
+      <file leaf-file-name="load_config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/load_config">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3888888">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/conf/routes">
+      <file leaf-file-name="deploy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/deploy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22203948">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/build">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="play-fork-run-e33339f1-a856-42e9-a16e-6ce4b80417df.log" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.sbtserver/connections/play-fork-run-e33339f1-a856-42e9-a16e-6ce4b80417df.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.5990099">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/application.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.125">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="openshift.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/openshift.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="7.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/evolutions/default/1.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.0555556">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -522,12 +157,9 @@
       <file leaf-file-name="Locations.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/Locations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-14.444445">
               <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding>
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -547,10 +179,10 @@
       <list>
         <option value="$PROJECT_DIR$/conf/application.conf" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/conf/routes" />
         <option value="$PROJECT_DIR$/app/models/Locations.java" />
         <option value="$PROJECT_DIR$/app/models/Event.java" />
         <option value="$PROJECT_DIR$/app/controllers/Application.java" />
+        <option value="$PROJECT_DIR$/conf/routes" />
       </list>
     </option>
   </component>
@@ -569,7 +201,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="726" />
+    <option name="height" value="724" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -578,7 +210,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -596,6 +228,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -626,7 +259,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="evolutions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -684,9 +353,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".openshift" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1033,15 +715,16 @@
       <workItem from="1460224123309" duration="22000" />
       <workItem from="1465163213820" duration="1052000" />
       <workItem from="1465779416091" duration="47000" />
+      <workItem from="1467561746395" duration="839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5697000" />
+    <option name="totallyTimeSpent" value="6536000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="726" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1051,7 +734,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22940226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22940226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21405493" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1119,8 +802,59 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
+            <element signature="e#1826#1827#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+          <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/routes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Locations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="e#1826#1827#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1163,10 +897,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1175,8 +906,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
+            <element signature="e#1826#1827#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1185,10 +915,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1197,8 +924,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
+            <element signature="e#1826#1827#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1207,10 +933,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-          <folding>
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1219,8 +942,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
+            <element signature="e#1826#1827#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1229,10 +951,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-          <folding>
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1241,8 +960,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
+            <element signature="e#1826#1827#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1251,10 +969,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-          <folding>
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1263,8 +978,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
+            <element signature="e#1826#1827#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1290,35 +1004,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/build">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/stop">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/application.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Locations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1330,21 +1019,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.111111">
-          <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+        <state vertical-scroll-proportion="-31.11111">
+          <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1353,7 +1031,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3888888">
+        <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
@@ -1361,8 +1039,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/routes">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22203948">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Locations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.444445">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/evolutions/default/1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0555556">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/openshift.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="7.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.125">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-31.11111">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <element signature="e#1826#1827#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/post_deploy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/load_config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/deploy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.openshift/action_hooks/build">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.sbtserver/connections/play-fork-run-e33339f1-a856-42e9-a16e-6ce4b80417df.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5990099">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -27,6 +27,7 @@ public class Event extends Model{
     private String color;
     private int hour;
     private int minute;
+    private String date_to_use;
     private Calendar date;
 
     public static Finder<Integer, Event> find = new Finder<Integer,Event>(Event.class);
@@ -40,24 +41,30 @@ public class Event extends Model{
         this.description = description;
         //this.tags = tags;
         this.time = time;
+        this.color = color;
+        this.date_to_use = date;
+        System.out.println(date + " " + this.time);
+        if(time != null && date != null){
+            String new_date = date.concat(" ").concat(time);
+            SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy hh:mm");
 
-        String new_date = date.concat(time);
-        SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy HH:mm");
+            try{
+                this.tmp_date = formatter.parse(new_date);
+                System.out.println("WORKS");
+            } catch (ParseException e){
+                e.printStackTrace();
+            }
 
-        try{
-            this.tmp_date = formatter.parse(date);
-        } catch (ParseException e){
-            e.printStackTrace();
+            this.date = new GregorianCalendar();
+            System.out.println(this.tmp_date);
+            this.date.setTime(this.tmp_date);
+
+            String[] times = time.split(":");
+            this.hour = Integer.parseInt(times[0]);
+            this.minute = Integer.parseInt(times[1]);
+            
         }
 
-        this.date = new GregorianCalendar();
-        this.date.setTime(this.tmp_date);
-
-        String[] times = time.split(":");
-        this.hour = Integer.parseInt(times[0]);
-        this.minute = Integer.parseInt(times[1]);
-
-        this.color = color;
     }
 
     public void setName(String name){
@@ -88,7 +95,7 @@ public class Event extends Model{
     public void setDesc(String description) { this.description = description; }
 
     public String getTime() { 
-        return this.date.get(Calendar.HOUR) + ":" + this.date.get(Calendar.MINUTE); 
+        return this.time; 
     }
 
     public void setTime(String time) { 
@@ -102,11 +109,12 @@ public class Event extends Model{
     }
 
     public String getDate() { 
-        return this.date.get(Calendar.MONTH) + "/" + this.date.get(Calendar.DAY_OF_MONTH) + "/" + this.date.get(Calendar.YEAR); 
+        return this.date_to_use; 
     }
 
     public void setDate(String date) { 
 
+        this.date_to_use = date;
         String[] dates = date.split("/");
         int month = Integer.parseInt(dates[0]);
         int day = Integer.parseInt(dates[1]);

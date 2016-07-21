@@ -21,4 +21,4 @@ GET     /saveEvent                  controllers.Application.saveEvent()
 
 GET     /viewEvent                  controllers.Application.search()
 
-GET     /outputByDate               controllers.Application.outputByDate
+GET     /outputByDate               controllers.Application.outputByDate()
