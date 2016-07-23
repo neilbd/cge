@@ -180,12 +180,6 @@
 [0m[[0minfo[0m] [0m- play.api.db.DefaultDBApi - Database [default] connected at jdbc:h2:mem:play[0m
 [0m[[33mwarn[0m] [0m- application - application.conf @ file:/Users/neilbd/Documents/CGE/cge/target/scala-2.11/classes/application.conf: 54: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead[0m
 [0m[[0minfo[0m] [0m- play.api.Play - Application started (Dev)[0m
-[0m[[0minfo[0m] [0m3/10/2017 4:00[0m
-[0m[[0minfo[0m] [0mWORKS[0m
-[0m[[0minfo[0m] [0mFri Mar 10 04:00:00 EST 2017[0m
-[0m[[0minfo[0m] [0m3/5/2017 3:30[0m
-[0m[[0minfo[0m] [0mWORKS[0m
-[0m[[0minfo[0m] [0mSun Mar 05 03:30:00 EST 2017[0m
 [0m[[0minfo[0m] [0m3/10/2017 2:00[0m
 [0m[[0minfo[0m] [0mWORKS[0m
 [0m[[0minfo[0m] [0mFri Mar 10 02:00:00 EST 2017[0m

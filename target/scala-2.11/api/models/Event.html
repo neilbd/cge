@@ -90,7 +90,7 @@
         <div id="constructors" class="members">
               <h3>Instance Constructors</h3>
               <ol><li name="models.Event#&lt;init&gt;" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="&lt;init&gt;(name:String,location:String,room:String,description:String,time:String,date:String,color:String):models.Event"></a>
+      <a id="&lt;init&gt;(organization_name:String,location:String,room:String,description:String,time:String,date:String,phone_number:String,email:String,tag:String):models.Event"></a>
       <a id="&lt;init&gt;:Event"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -98,10 +98,10 @@
         <span class="kind">new</span>
       </span>
       <span class="symbol">
-        <span class="name">Event</span><span class="params">(<span name="name">name: <span class="extype" name="java.lang.String">String</span></span>, <span name="location">location: <span class="extype" name="java.lang.String">String</span></span>, <span name="room">room: <span class="extype" name="java.lang.String">String</span></span>, <span name="description">description: <span class="extype" name="java.lang.String">String</span></span>, <span name="time">time: <span class="extype" name="java.lang.String">String</span></span>, <span name="date">date: <span class="extype" name="java.lang.String">String</span></span>, <span name="color">color: <span class="extype" name="java.lang.String">String</span></span>)</span>
+        <span class="name">Event</span><span class="params">(<span name="organization_name">organization_name: <span class="extype" name="java.lang.String">String</span></span>, <span name="location">location: <span class="extype" name="java.lang.String">String</span></span>, <span name="room">room: <span class="extype" name="java.lang.String">String</span></span>, <span name="description">description: <span class="extype" name="java.lang.String">String</span></span>, <span name="time">time: <span class="extype" name="java.lang.String">String</span></span>, <span name="date">date: <span class="extype" name="java.lang.String">String</span></span>, <span name="phone_number">phone_number: <span class="extype" name="java.lang.String">String</span></span>, <span name="email">email: <span class="extype" name="java.lang.String">String</span></span>, <span name="tag">tag: <span class="extype" name="java.lang.String">String</span></span>)</span>
       </span>
       </h4><span class="permalink">
-      <a href="../index.html#models.Event@&lt;init&gt;(name:String,location:String,room:String,description:String,time:String,date:String,color:String):models.Event" title="Permalink" target="_top">
+      <a href="../index.html#models.Event@&lt;init&gt;(organization_name:String,location:String,room:String,description:String,time:String,date:String,phone_number:String,email:String,tag:String):models.Event" title="Permalink" target="_top">
         <img src="../lib/permalink.png" />
       </a>
     </span>
@@ -365,6 +365,23 @@
       </a>
     </span>
       
+    </li><li name="models.Event#getEmail" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="getEmail():String"></a>
+      <a id="getEmail():String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getEmail</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#models.Event@getEmail():String" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
     </li><li name="models.Event#getId" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="getId():Int"></a>
       <a id="getId():Int"></a>
@@ -412,6 +429,23 @@
       </span>
       </h4><span class="permalink">
       <a href="../index.html#models.Event@getName():String" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="models.Event#getPhone" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="getPhone():String"></a>
+      <a id="getPhone():String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getPhone</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#models.Event@getPhone():String" title="Permalink" target="_top">
         <img src="../lib/permalink.png" />
       </a>
     </span>
@@ -621,7 +655,7 @@
     </span>
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Model</dd></dl></div>
     </li><li name="models.Event#setColor" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="setColor(color:String):Unit"></a>
+      <a id="setColor(tag:String):Unit"></a>
       <a id="setColor(String):Unit"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -629,10 +663,10 @@
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="name">setColor</span><span class="params">(<span name="color">color: <span class="extype" name="java.lang.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+        <span class="name">setColor</span><span class="params">(<span name="tag">tag: <span class="extype" name="java.lang.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../index.html#models.Event@setColor(color:String):Unit" title="Permalink" target="_top">
+      <a href="../index.html#models.Event@setColor(tag:String):Unit" title="Permalink" target="_top">
         <img src="../lib/permalink.png" />
       </a>
     </span>
@@ -689,7 +723,7 @@
     </span>
       
     </li><li name="models.Event#setName" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="setName(name:String):Unit"></a>
+      <a id="setName(organization_name:String):Unit"></a>
       <a id="setName(String):Unit"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -697,10 +731,10 @@
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="name">setName</span><span class="params">(<span name="name">name: <span class="extype" name="java.lang.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+        <span class="name">setName</span><span class="params">(<span name="organization_name">organization_name: <span class="extype" name="java.lang.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
       </span>
       </h4><span class="permalink">
-      <a href="../index.html#models.Event@setName(name:String):Unit" title="Permalink" target="_top">
+      <a href="../index.html#models.Event@setName(organization_name:String):Unit" title="Permalink" target="_top">
         <img src="../lib/permalink.png" />
       </a>
     </span>

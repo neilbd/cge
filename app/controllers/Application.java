@@ -54,10 +54,12 @@ public class Application extends Controller {
         String description = json.findPath("description").textValue();
         String time = json.findPath("time").textValue();
         String date = json.findPath("date").textValue();
-        String color = json.findPath("color").textValue();
+        String phone_number = json.findPath("phone_number").textValue();
+        String email = json.findPath("email").textValue();
+        String tag = json.findPath("tag").textValue();
 
         // Event event = new Event(name, null, null, null, null, null, null);
-        Event event = new Event(name, location, room, description, time, date, color);
+        Event event = new Event(name, location, room, description, time, date, phone_number, email, tag);
         event.save();
         return ok("Data saved");
     }

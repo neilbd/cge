@@ -1,5 +1,5 @@
-New log file opened at Thu Jul 21 09:29:10 EDT 2016 by 4037@neilbd-pc.local
-jvm 4037@neilbd-pc.local
+New log file opened at Fri Jul 22 21:55:01 EDT 2016 by 2094@neilbd-pc.local
+jvm 2094@neilbd-pc.local
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.60-b23
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in /Users/neilbd/Documents/CGE/cge/project/project, returning: (cge-build-build)
 Loading project definition from /Users/neilbd/Documents/CGE/cge/project/project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@64a59829, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@39811e89, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -59,7 +59,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in /Users/neilbd/Documents/CGE/cge/project, returning: (cge-build)
 Loading project definition from /Users/neilbd/Documents/CGE/cge/project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@64a59829, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@39811e89, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -99,10 +99,3 @@ Set current project to campuseventsapp (in build file:/Users/neilbd/Documents/CG
 > iflast shell
 > server-send-ready-for-request
 > server-handle-next-server-request
-Done executing sbt server engine, result Right(Exit(0))
-Closing listening server socket
-Waiting for socket thread
-Waiting for request processor thread
-Waiting for command engine result
-Returning control to sbt launcher with result Exit(0)
-Closing the 4037@neilbd-pc.local logs at Thu Jul 21 09:32:11 EDT 2016, goodbye.

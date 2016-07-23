@@ -15,7 +15,7 @@ public class Event extends Model{
     @Required
     @Id @GeneratedValue(strategy=GenerationType.IDENTITY)
     private int id;
-    private String name;
+    private String organization_name;
     private String location;
     private String room;
     private Date tmp_date;
@@ -24,25 +24,30 @@ public class Event extends Model{
     private String description;
     private int attendence;
     //private ArrayList<Tag> tags;
-    private String color;
+    private String tag;
     private int hour;
     private int minute;
     private String date_to_use;
     private Calendar date;
+    private String phone_number;
+    private String email;
+
 
     public static Finder<Integer, Event> find = new Finder<Integer,Event>(Event.class);
     ///*Organization org,*/
-    public Event(/*int id,*/ String name, String location, String room, String description, /*ArrayList<Tag> tags,*/
-                 String time, String date, String color){
-        this.name = name;
+    public Event(/*int id,*/ String organization_name, String location, String room, String description, /*ArrayList<Tag> tags,*/
+                 String time, String date, String phone_number, String email, String tag){
+        this.organization_name = organization_name;
         //this.org = org;
         this.location = location;
         this.room = room;
         this.description = description;
         //this.tags = tags;
         this.time = time;
-        this.color = color;
+        this.tag = tag;
         this.date_to_use = date;
+        this.email = email;
+        this.phone_number = phone_number;
         System.out.println(date + " " + this.time);
         if(time != null && date != null){
             String new_date = date.concat(" ").concat(time);
@@ -67,12 +72,12 @@ public class Event extends Model{
 
     }
 
-    public void setName(String name){
-        this.name = name;
+    public void setName(String organization_name){
+        this.organization_name = organization_name;
     }
 
     public String getName(){
-        return this.name;
+        return this.organization_name;
     }
 
     public int getId() { return this.id; }
@@ -112,6 +117,14 @@ public class Event extends Model{
         return this.date_to_use; 
     }
 
+    public String getEmail() {
+        return this.email;
+    }
+
+    public String getPhone(){
+        return this.phone_number;
+    }
+
     public void setDate(String date) { 
 
         this.date_to_use = date;
@@ -126,12 +139,12 @@ public class Event extends Model{
 
     }
 
-    public String getColor() { return this.color; }
+    public String getColor() { return this.tag; }
 
-    public void setColor(String color) { this.color = color; }
+    public void setColor(String tag) { this.tag = tag; }
 
-    public static ExpressionList<Event> findName(String name) {
-        return find.where().like("name", name);
+    public static ExpressionList<Event> findName(String organization_name) {
+        return find.where().like("organization_name", organization_name);
     }
 
     //public void setTags(ArrayList<Tag> tags) { this.tags = tags; }
