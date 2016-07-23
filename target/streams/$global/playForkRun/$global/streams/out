@@ -180,9 +180,15 @@
 [0m[[0minfo[0m] [0m- play.api.db.DefaultDBApi - Database [default] connected at jdbc:h2:mem:play[0m
 [0m[[33mwarn[0m] [0m- application - application.conf @ file:/Users/neilbd/Documents/CGE/cge/target/scala-2.11/classes/application.conf: 54: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead[0m
 [0m[[0minfo[0m] [0m- play.api.Play - Application started (Dev)[0m
-[0m[[0minfo[0m] [0m3/10/2017 2:00[0m
+[0m[[0minfo[0m] [0m3/10/2017 4:00[0m
 [0m[[0minfo[0m] [0mWORKS[0m
-[0m[[0minfo[0m] [0mFri Mar 10 02:00:00 EST 2017[0m
+[0m[[0minfo[0m] [0mFri Mar 10 04:00:00 EST 2017[0m
+[0m[[0minfo[0m] [0m2/10/2017 2:00[0m
+[0m[[0minfo[0m] [0mWORKS[0m
+[0m[[0minfo[0m] [0mFri Feb 10 02:00:00 EST 2017[0m
+[0m[[0minfo[0m] [0m3/10/2017 2:15[0m
+[0m[[0minfo[0m] [0mWORKS[0m
+[0m[[0minfo[0m] [0mFri Mar 10 02:15:00 EST 2017[0m
 [0m[[0minfo[0m] [0mStopping Play fork run ...[0m
 [0m[[0minfo[0m] [0m- application - Shutting down connection pool.[0m
 [0m[[0minfo[0m] [0mJVM exiting, shutting down Play fork run ...[0m

@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/neilbd/Documents/CGE/cge/conf/routes
-// @DATE:Fri Jul 22 21:50:53 EDT 2016
+// @DATE:Fri Jul 22 22:19:50 EDT 2016
 
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
 import play.core.routing.{ HandlerDef, ReverseRouteContext, queryString, dynamicString }

@@ -84,7 +84,7 @@ public class Application extends Controller {
         JsonNode json = request().body().asJson();
 
         // events greater than current date from most recent date to farthest away
-        List<Event> resultList = Event.find.where().ge("Date", new Date()).orderBy("date desc").findList();
+        List<Event> resultList = Event.find.where().ge("Date", new Date()).orderBy("date asc").findList();
         JsonNode result = Json.toJson(resultList);
         return ok(result);
     }

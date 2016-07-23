@@ -1,7 +1,10 @@
-New log file opened at Fri Jul 22 21:55:02 EDT 2016 by 2094@neilbd-pc.local
-Taking next connection to: 50118
-New client attempting to connect on port: 50119-50118
-  Address = /192.168.0.10:50118
-This client on port 50119 has uuid e25e4f5d-72c2-46cd-8cc8-837f19d8c6b1 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: play-fork-run-e25e4f5d-72c2-46cd-8cc8-837f19d8c6b1
-Taking next connection to: 50118
+New log file opened at Sat Jul 23 17:57:41 EDT 2016 by 6448@neilbd-pc.local
+Taking next connection to: 50332
+New client attempting to connect on port: 50333-50332
+  Address = /192.168.0.5:50332
+This client on port 50333 has uuid f38091f6-7515-461c-947f-6045eb4bb78f configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-f38091f6-7515-461c-947f-6045eb4bb78f
+Taking next connection to: 50332
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50332
